@@ -19,9 +19,9 @@ devices manufactured by Intel and sold by Intel or its
 authorized distributors.  Please refer to the applicable 
 agreement for further details.
 */
-(header "graphic" (version "1.4"))
+(header "symbol" (version "1.2"))
 (symbol
-	(rect 288 152 608 264)
+	(rect 64 64 384 176)
 	(text "PCV1S1" (rect 144 24 185 36)(font "Arial" ))
 	(text "inst" (rect 152 64 169 76)(font "Arial" ))
 	(port
@@ -49,12 +49,12 @@ agreement for further details.
 		(pt 320 48)
 		(output)
 		(text "address_out[bus_wid..0]" (rect 32 0 151 12)(font "Arial" ))
-		(text "address_out[bus_wid..0]" (rect 199 43 318 55)(font "Arial" ))
+		(text "address_out[bus_wid..0]" (rect 199 43 299 55)(font "Arial" ))
 		(line (pt 320 48)(pt 304 48)(line_width 3))
 	)
 	(parameter
 		"bus_wid"
-		"8"
+		"1"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
 	(parameter
@@ -65,6 +65,5 @@ agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 304 88))
 	)
-	(annotation_block (parameter)(rect 288 88 457 145))
+	(annotation_block (parameter)(rect 304 -48 480 16))
 )
-(text "Main Block File" (rect 288 64 376 83)(font "Intel Clear" (font_size 8)))

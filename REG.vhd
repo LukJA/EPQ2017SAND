@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.core_pack.all;
 
 entity DFF_Rising is 
 	generic( n: integer := 1);	-- width
@@ -24,7 +23,6 @@ end behavioral;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.core_pack.all;
 
 entity DFF_Falling is 
 	generic( n: integer := 1);	-- width
@@ -48,26 +46,29 @@ end behavioral;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.core_pack.all;
 
 entity DFFQ is
 	generic( 
-		n: integer := 1;	-- width
-		e: integer := 1 -- edge
+		n: integer := 1	-- width
 		);
 	port( clk: in std_logic := '0';
 			D: in std_logic_vector(n-1 downto 0) := (others => '0');
-			Q: out std_logic_vector(n-1 downto 0) := (others => '0')
+			Q: out std_logic_vector(n-1 downto 0) := (others => '0');
+			E: in std_logic := '1'
 			);
 end DFFQ;
 
 architecture behavioral of DFFQ is 
 begin
 	process(clk) begin
-		if (rising_edge(clk) and e) then -- clock rising edge
-			Q <= D;
-		elsif (falling_edge(clk) and (not e)) then -- clock falling edge
-			Q <= D;
+		if (rising_edge(clk)) then -- clock rising edge
+			if (E) then
+				Q <= D;
+			end if;
+		elsif (falling_edge(clk)) then -- clock falling edge
+			if (not E) then
+				Q <= D;
+			end if;
 		end if;
 	end process;
 end behavioral;
