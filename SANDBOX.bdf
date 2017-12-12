@@ -67,4 +67,84 @@ agreement for further details.
 	)
 	(annotation_block (parameter)(rect 288 88 457 145))
 )
+(symbol
+	(rect 728 152 992 296)
+	(text "ALUV1S1_unsigned" (rect 5 0 101 12)(font "Arial" ))
+	(text "inst1" (rect 8 128 30 145)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Q1[data_width-1..0]" (rect 0 0 95 12)(font "Arial" ))
+		(text "Q1[data_width-1..0]" (rect 21 27 116 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Q2[data_width-1..0]" (rect 0 0 95 12)(font "Arial" ))
+		(text "Q2[data_width-1..0]" (rect 21 43 116 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "OP[op_width-1..0]" (rect 0 0 87 12)(font "Arial" ))
+		(text "OP[op_width-1..0]" (rect 21 59 108 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 264 32)
+		(output)
+		(text "output[data_width-1..0]" (rect 0 0 112 12)(font "Arial" ))
+		(text "output[data_width-1..0]" (rect 149 27 261 39)(font "Arial" ))
+		(line (pt 264 32)(pt 248 32)(line_width 3))
+	)
+	(port
+		(pt 264 48)
+		(output)
+		(text "overflow" (rect 0 0 42 12)(font "Arial" ))
+		(text "overflow" (rect 208 43 250 55)(font "Arial" ))
+		(line (pt 264 48)(pt 248 48))
+	)
+	(port
+		(pt 264 64)
+		(output)
+		(text "zero" (rect 0 0 20 12)(font "Arial" ))
+		(text "zero" (rect 227 59 247 71)(font "Arial" ))
+		(line (pt 264 64)(pt 248 64))
+	)
+	(port
+		(pt 264 80)
+		(output)
+		(text "EQ" (rect 0 0 15 12)(font "Arial" ))
+		(text "EQ" (rect 231 75 246 87)(font "Arial" ))
+		(line (pt 264 80)(pt 248 80))
+	)
+	(port
+		(pt 264 96)
+		(output)
+		(text "Greater" (rect 0 0 36 12)(font "Arial" ))
+		(text "Greater" (rect 213 91 249 103)(font "Arial" ))
+		(line (pt 264 96)(pt 248 96))
+	)
+	(parameter
+		"data_width"
+		"8"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"op_width"
+		"4"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"active_v"
+		"'1'"
+		""
+		(type "PARAMETER_ENUM")	)
+	(drawing
+		(rectangle (rect 16 16 248 128))
+	)
+	(annotation_block (parameter)(rect 992 72 1167 148))
+)
 (text "Main Block File" (rect 288 64 376 83)(font "Intel Clear" (font_size 8)))

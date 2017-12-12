@@ -42,7 +42,7 @@ begin
 		overbus <= (others => '0');
 		-- vector for overflowing value 
 	
-		case unsigned(OP) is
+		case to_integer(unsigned(OP)) is
 			when 0 =>
 				-- Follow through operation (access to data bus from reg file)(default)
 				output <= Q1;
@@ -53,7 +53,7 @@ begin
 				-- ADD operation
 				overbus <= std_logic_vector(unsigned('0' & Q1) + unsigned('0' & Q2));
 				output <= overbus(data_width-1 downto 0);
-				overflow <= fullnine(data_width);
+				overflow <= overbus(data_width);
 				
 			when 2 => 
 				-- SUB operation
@@ -100,9 +100,9 @@ begin
 		end if;
 		
 		if Q1 = Q2 then
-			isEq <= active_v;
+			EQ <= active_v;
 		else
-			isEq <= not active_v;
+			EQ <= not active_v;
 		end if;
 		
 	end process;
