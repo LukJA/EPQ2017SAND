@@ -1,4 +1,4 @@
-/* PC_V1_S1 .vhd */
+/* PCV1S1 .vhd */
 /* A Program Counter, parametrically designed, with full external control */
 /* designed for modular general use under the K1 standard */
 /* (c) Luke Andrews 2017 */
@@ -15,9 +15,9 @@ entity PCV1S1 is
 	);
 	port (
 		CLK			: in std_logic := '0';
-		address_in	: in std_logic_vector(bus_wid downto 0) := (others => '0');
+		address_in	: in std_logic_vector(bus_wid-1 downto 0) := (others => '0');
 		jump_enable	: in std_logic := '0';
-		address_out	: out std_logic_vector(bus_Wid downto 0) := (others => '0')
+		address_out	: out std_logic_vector(bus_Wid-1 downto 0) := (others => '0')
 	);
 		
 end PCV1S1;
