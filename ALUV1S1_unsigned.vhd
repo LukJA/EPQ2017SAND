@@ -1,7 +1,7 @@
 /* ALUV1S1_unsigned.vhd */
 /* a first level fully parametric ALU */
 /* designed for modular use within the K1 standard */
-/* based on a standard OP code set for unsigned work
+/* based on a standard OP code set for unsigned work */
 /* (c) Luke Andrews 2017 */
 /* All software is written under the MIT license */
 
