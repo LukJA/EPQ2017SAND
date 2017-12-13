@@ -68,7 +68,7 @@ agreement for further details.
 	(annotation_block (parameter)(rect 128 96 297 153))
 )
 (symbol
-	(rect 952 168 1216 312)
+	(rect 816 160 1080 304)
 	(text "ALUV1S1_unsigned" (rect 88 16 184 28)(font "Arial" ))
 	(text "inst1" (rect 120 104 143 116)(font "Arial" ))
 	(port
@@ -145,7 +145,7 @@ agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 248 120))
 	)
-	(annotation_block (parameter)(rect 952 80 1127 156))
+	(annotation_block (parameter)(rect 816 72 991 148))
 )
 (symbol
 	(rect 472 176 688 320)
