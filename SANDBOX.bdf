@@ -233,51 +233,6 @@ agreement for further details.
 		(circle (rect 31 12 39 20))
 	)
 )
-(symbol
-	(rect 1488 248 1880 328)
-	(text "register_file" (rect 5 0 62 12)(font "Arial" ))
-	(text "inst4" (rect 8 64 30 81)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "regDs[array_wid-1..0][word_wid-1..0]" (rect 0 0 179 12)(font "Arial" ))
-		(text "regDs[array_wid-1..0][word_wid-1..0]" (rect 21 27 200 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "regClock[array_wid-1..0]" (rect 0 0 120 12)(font "Arial" ))
-		(text "regClock[array_wid-1..0]" (rect 21 43 141 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 392 32)
-		(output)
-		(text "regQs[array_wid-1..0][word_wid-1..0]" (rect 0 0 179 12)(font "Arial" ))
-		(text "regQs[array_wid-1..0][word_wid-1..0]" (rect 220 27 399 39)(font "Arial" ))
-		(line (pt 392 32)(pt 376 32)(line_width 3))
-	)
-	(parameter
-		"array_wid"
-		"16"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"word_wid"
-		"8"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"active_edge"
-		"'1'"
-		""
-		(type "PARAMETER_ENUM")	)
-	(drawing
-		(rectangle (rect 16 16 376 64))
-	)
-	(annotation_block (parameter)(rect 1488 152 1672 232))
-)
 (connector
 	(pt 448 208)
 	(pt 472 208)
