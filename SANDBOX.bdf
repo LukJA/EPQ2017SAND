@@ -68,7 +68,7 @@ agreement for further details.
 	(annotation_block (parameter)(rect 128 96 297 153))
 )
 (symbol
-	(rect 856 184 1120 328)
+	(rect 928 160 1192 304)
 	(text "ALUV1S1_unsigned" (rect 88 16 184 28)(font "Arial" ))
 	(text "inst1" (rect 120 104 143 116)(font "Arial" ))
 	(port
@@ -145,7 +145,7 @@ agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 248 120))
 	)
-	(annotation_block (parameter)(rect 856 96 1031 172))
+	(annotation_block (parameter)(rect 928 72 1103 148))
 )
 (symbol
 	(rect 472 176 688 320)
@@ -223,7 +223,7 @@ agreement for further details.
 		(pt 48 16)
 		(output)
 		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 46 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -231,6 +231,70 @@ agreement for further details.
 		(line (pt 13 7)(pt 31 16))
 		(line (pt 13 25)(pt 31 16))
 		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect 752 168 896 328)
+	(text "r_block" (rect 5 0 48 19)(font "Intel Clear" (font_size 8)))
+	(text "inst4" (rect 8 139 30 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "AD1[4..0]" (rect 0 0 56 19)(font "Intel Clear" (font_size 8)))
+		(text "AD1[4..0]" (rect 21 27 77 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "AD2[4..0]" (rect 0 0 56 19)(font "Intel Clear" (font_size 8)))
+		(text "AD2[4..0]" (rect 21 43 77 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "IN1[7..0]" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
+		(text "IN1[7..0]" (rect 21 59 72 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "IN2[7..0]" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
+		(text "IN2[7..0]" (rect 21 75 72 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "CLK1" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK1" (rect 21 91 52 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "CLK2" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK2" (rect 21 107 52 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "OUT1" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "OUT1" (rect 88 27 123 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 32)(pt 128 32))
+	)
+	(port
+		(pt 144 48)
+		(output)
+		(text "OUT2" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "OUT2" (rect 88 43 123 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 48)(pt 128 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 144))
 	)
 )
 (connector
