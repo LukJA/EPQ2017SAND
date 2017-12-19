@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.global.all;
 
 entity DFF_Rising is 
 	generic( n: integer := 1);	-- width
@@ -23,6 +24,7 @@ end behavioral;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.global.all;
 
 entity DFF_Falling is 
 	generic( n: integer := 1);	-- width
@@ -46,6 +48,7 @@ end behavioral;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.global.all;
 
 entity DFFQ is
 	generic( 

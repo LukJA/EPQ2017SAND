@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.global.all;
+use work.array_pack.all;
 
 -- demux - spreads an input over a range of outputs
 -- selectable sizes
@@ -37,7 +37,7 @@ end rtl;
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.global.all;
+use work.array_pack.all;
 
 -- stream mux - selects an output from a choice of inputs
 -- selectable features

@@ -1,20 +1,11 @@
 /* this file hold useful vector and array functions such as bus oring, anding etc */
 
-/* some types have to be implemeted for the array functionality */
-library IEEE;
-use IEEE.std_logic_1164.all;
-use ieee.numeric_std.all;
-package array_pack is
-  type array_p is array (natural range <>) of std_logic_vector;
-end package;
-
-
 /* array or procedure */
 /* explicity generates a whole bunch of or gates */
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.array_pack.all;
+use work.global.all;
 
 entity array_or is
 
@@ -49,6 +40,7 @@ end behavioral;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.global.all;
 
 entity vector_or is
  
@@ -80,7 +72,7 @@ end behavioral;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.array_pack.all;
+use work.global.all;
 
 entity array_and is
 
@@ -115,6 +107,7 @@ end behavioral;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.global.all;
 
 entity vector_and is
  

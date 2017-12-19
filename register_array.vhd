@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.array_pack.all;
+use work.global.all;
 
 -- register file entity
 -- 64 bit register file
