@@ -490,6 +490,27 @@ agreement for further details.
 	(bus)
 )
 (connector
+	(pt -376 352)
+	(pt -368 352)
+	(bus)
+)
+(connector
+	(text "`" (rect -368 336 -363 353)(font "Intel Clear" ))
+	(pt -368 352)
+	(pt -320 352)
+	(bus)
+)
+(connector
+	(pt -376 160)
+	(pt -368 160)
+	(bus)
+)
+(connector
+	(pt -368 160)
+	(pt -320 160)
+	(bus)
+)
+(connector
 	(pt -376 88)
 	(pt -368 88)
 	(bus)
@@ -497,27 +518,6 @@ agreement for further details.
 (connector
 	(pt -368 88)
 	(pt -344 88)
-	(bus)
-)
-(connector
-	(pt -320 160)
-	(pt -368 160)
-	(bus)
-)
-(connector
-	(pt -368 160)
-	(pt -376 160)
-	(bus)
-)
-(connector
-	(pt -320 352)
-	(pt -368 352)
-	(bus)
-)
-(connector
-	(text "`" (rect -368 336 -363 353)(font "Intel Clear" ))
-	(pt -368 352)
-	(pt -376 352)
 	(bus)
 )
 (junction (pt 736 256))

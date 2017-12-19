@@ -12,7 +12,6 @@ use work.global.all;
 entity R_P_control is 
 	generic( 
 		size: integer := 64;		-- selects the number of entries
-		wide: integer := 8;			-- width of each entry
 		adr_wide: integer := 6		-- address width
 			);
 	port(	addr_P1	: in std_logic_vector(adr_wide-1 downto 0) := (others => '0');
@@ -29,11 +28,11 @@ begin
 		-- process to combine clock signals
 		for i in 0 to size-1 loop
 			-- if this registers address is selected and the corrosponding clock is pulsed
-			if ((to_integer(unsigned(addr_P1)) = i) and (clk_P1)) or ((to_integer(unsigned(addr_P2)) = i) and to_bool(clk_P2)) then
+			if ((to_integer(unsigned(addr_P1)) = i) and to_bool(clk_1)) or ((to_integer(unsigned(addr_P2)) = i) and to_bool(clk_2)) then
 				-- high the registers clock
-				clocks(i) <= '1';
+				clkout(i) <= '1';
 			else 
-				clocks(i) <= '0';
+				clkout(i) <= '0';
 			end if;		
 		end loop;
 	end process;
