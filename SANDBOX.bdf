@@ -20,6 +20,7 @@ authorized distributors.  Please refer to the applicable
 agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(alias "<<__$DEF_ALIAS1278>>""overflow;zero;eq;gr")
 (symbol
 	(rect 128 160 448 272)
 	(text "PCV1S1" (rect 144 24 185 36)(font "Arial" ))
@@ -68,7 +69,7 @@ agreement for further details.
 	(annotation_block (parameter)(rect 128 96 297 153))
 )
 (symbol
-	(rect 928 160 1192 304)
+	(rect 1184 168 1448 312)
 	(text "ALUV1S1_unsigned" (rect 88 16 184 28)(font "Arial" ))
 	(text "inst1" (rect 120 104 143 116)(font "Arial" ))
 	(port
@@ -145,7 +146,7 @@ agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 248 120))
 	)
-	(annotation_block (parameter)(rect 928 72 1103 148))
+	(annotation_block (parameter)(rect 1184 80 1359 156))
 )
 (symbol
 	(rect 472 176 688 320)
@@ -234,7 +235,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 752 168 896 328)
+	(rect 952 160 1096 320)
 	(text "r_block" (rect 5 0 48 19)(font "Intel Clear" (font_size 8)))
 	(text "inst4" (rect 8 139 30 156)(font "Intel Clear" ))
 	(port
@@ -325,6 +326,61 @@ agreement for further details.
 (connector
 	(pt 400 344)
 	(pt 752 344)
+)
+(connector
+	(pt 1184 208)
+	(pt 1128 208)
+	(bus)
+)
+(connector
+	(pt 1184 224)
+	(pt 1112 224)
+	(bus)
+)
+(connector
+	(pt 1128 192)
+	(pt 1096 192)
+	(bus)
+)
+(connector
+	(pt 1112 208)
+	(pt 1096 208)
+	(bus)
+)
+(connector
+	(pt 1128 208)
+	(pt 1128 192)
+	(bus)
+)
+(connector
+	(pt 1112 224)
+	(pt 1112 208)
+	(bus)
+)
+(connector
+	(pt 952 240)
+	(pt 936 240)
+	(bus)
+)
+(connector
+	(pt 936 240)
+	(pt 936 344)
+	(bus)
+)
+(connector
+	(pt 936 344)
+	(pt 1472 344)
+	(bus)
+)
+(connector
+	(pt 1472 344)
+	(pt 1472 200)
+	(bus)
+)
+(connector
+	(pt 1448 200)
+	(pt 1472 200)
+	(bus)
 )
 (junction (pt 400 344))
 (text "Main Block File" (rect 288 64 376 83)(font "Intel Clear" (font_size 8)))
