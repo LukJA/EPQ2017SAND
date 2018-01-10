@@ -47,7 +47,7 @@ begin
 			when 0 =>
 				-- Follow through operation (access to data bus from reg file)(default)
 				output <= Q1;
-				-- reset overfloe
+				-- reset overflow
 				overflow <= '0';
 				
 			when 1 =>
