@@ -25,7 +25,7 @@ end PCV1S1;
 
 architecture impl of PCV1S1 is
 
-	signal Registers_D, Registers_Q : std_logic_vector(bus_wid downto 0) := (others => '0');
+	signal Registers_D, Registers_Q : std_logic_vector(bus_wid-1 downto 0) := (others => '0');
 
 begin 
 	-- Main PC Register 16 bits wide

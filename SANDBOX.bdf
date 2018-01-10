@@ -22,19 +22,19 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -176 392 -8 408)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "ClockIn" (rect 5 0 42 12)(font "Arial" ))
-	(pt 168 8)
+	(rect -176 392 0 408)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "ClockIn" (rect 9 0 46 12)(font "Arial" ))
+	(pt 176 8)
 	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
 	)
-	(text "GND" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
 )
 (symbol
 	(rect 1184 168 1448 312)
@@ -131,7 +131,7 @@ agreement for further details.
 		(pt 48 16)
 		(output)
 		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 46 19)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -255,7 +255,7 @@ agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
 		(line (pt 42 24)(pt 64 24))
 	)
 	(drawing
@@ -287,7 +287,7 @@ agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
 		(line (pt 42 24)(pt 64 24))
 	)
 	(drawing
@@ -387,7 +387,7 @@ agreement for further details.
 		(pt 304 32)
 		(output)
 		(text "address_out[bus_wid-1..0]" (rect 0 0 128 12)(font "Arial" ))
-		(text "address_out[bus_wid-1..0]" (rect 175 27 303 39)(font "Arial" ))
+		(text "address_out[bus_wid-1..0]" (rect 175 27 283 39)(font "Arial" ))
 		(line (pt 304 32)(pt 288 32)(line_width 3))
 	)
 	(parameter
@@ -754,10 +754,6 @@ agreement for further details.
 	(pt 808 352)
 )
 (connector
-	(pt -8 400)
-	(pt 40 400)
-)
-(connector
 	(pt 40 400)
 	(pt 40 336)
 )
@@ -836,6 +832,14 @@ agreement for further details.
 	(pt 1136 208)
 	(bus)
 )
+(connector
+	(pt -8 400)
+	(pt 0 400)
+)
+(connector
+	(pt 0 400)
+	(pt 40 400)
+)
 (junction (pt 136 336))
 (junction (pt 848 312))
 (junction (pt 1488 240))
@@ -844,4 +848,5 @@ agreement for further details.
 (junction (pt 448 280))
 (junction (pt 448 296))
 (junction (pt 40 336))
+(junction (pt 0 400))
 (text "Main Block File" (rect 24 56 112 75)(font "Intel Clear" (font_size 8)))

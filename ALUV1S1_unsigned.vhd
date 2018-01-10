@@ -94,7 +94,7 @@ begin
 				output <= Q1;
 		end case;
 		
-		if output = (others => '0') then 
+		if unsigned(output) = 0 then 
 			zero <= active_v;
 		else 
 			zero <= not active_v;

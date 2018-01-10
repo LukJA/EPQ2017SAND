@@ -68,10 +68,6 @@ begin
 			if (E) then
 				Q <= D;
 			end if;
-		elsif (falling_edge(clk)) then -- clock falling edge
-			if (not E) then
-				Q <= D;
-			end if;
 		end if;
 	end process;
 end behavioral;

@@ -31,7 +31,7 @@ begin
 	-- generates a bunch of registers - see names on rtl viewer
 	GEN_REG: 
    for k in 0 to array_wid-1 generate
-      REGX : work.DFFQ generic map (word_wid-1) port map (regClock(k), regDs(k), regQs(k), active_edge);
+      REGX : work.DFFQ generic map (word_wid) port map (regClock(k), regDs(k), regQs(k), active_edge);
    end generate GEN_REG;
 	
 	
