@@ -36,6 +36,38 @@ agreement for further details.
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
 )
+(pin
+	(output)
+	(rect 208 120 384 136)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "PC[7..0]" (rect 90 0 131 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1488 200 1664 216)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "ALUO[7..0]" (rect 90 0 145 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 1184 168 1448 312)
 	(text "ALUV1S1_unsigned" (rect 88 16 184 28)(font "Arial" ))
@@ -131,7 +163,7 @@ agreement for further details.
 		(pt 48 16)
 		(output)
 		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 46 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -255,7 +287,7 @@ agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
 		(line (pt 42 24)(pt 64 24))
 	)
 	(drawing
@@ -287,7 +319,7 @@ agreement for further details.
 		(pt 64 24)
 		(output)
 		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 62 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
 		(line (pt 42 24)(pt 64 24))
 	)
 	(drawing
@@ -387,7 +419,7 @@ agreement for further details.
 		(pt 304 32)
 		(output)
 		(text "address_out[bus_wid-1..0]" (rect 0 0 128 12)(font "Arial" ))
-		(text "address_out[bus_wid-1..0]" (rect 175 27 283 39)(font "Arial" ))
+		(text "address_out[bus_wid-1..0]" (rect 175 27 303 39)(font "Arial" ))
 		(line (pt 304 32)(pt 288 32)(line_width 3))
 	)
 	(parameter
@@ -482,11 +514,6 @@ agreement for further details.
 (connector
 	(pt 936 344)
 	(pt 1472 344)
-	(bus)
-)
-(connector
-	(pt 1472 344)
-	(pt 1472 200)
 	(bus)
 )
 (connector
@@ -793,11 +820,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 176 184)
-	(pt 176 200)
-	(bus)
-)
-(connector
 	(pt 176 200)
 	(pt 208 200)
 	(bus)
@@ -840,6 +862,36 @@ agreement for further details.
 	(pt 0 400)
 	(pt 40 400)
 )
+(connector
+	(pt 176 128)
+	(pt 208 128)
+	(bus)
+)
+(connector
+	(pt 176 128)
+	(pt 176 184)
+	(bus)
+)
+(connector
+	(pt 176 184)
+	(pt 176 200)
+	(bus)
+)
+(connector
+	(pt 1488 208)
+	(pt 1472 208)
+	(bus)
+)
+(connector
+	(pt 1472 344)
+	(pt 1472 208)
+	(bus)
+)
+(connector
+	(pt 1472 208)
+	(pt 1472 200)
+	(bus)
+)
 (junction (pt 136 336))
 (junction (pt 848 312))
 (junction (pt 1488 240))
@@ -849,4 +901,6 @@ agreement for further details.
 (junction (pt 448 296))
 (junction (pt 40 336))
 (junction (pt 0 400))
+(junction (pt 176 184))
+(junction (pt 1472 208))
 (text "Main Block File" (rect 24 56 112 75)(font "Intel Clear" (font_size 8)))

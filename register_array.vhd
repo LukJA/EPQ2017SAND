@@ -9,8 +9,7 @@ use work.global.all;
 entity register_file is
 	generic(
 		array_wid	: integer := 16;
-		word_wid 	: integer := 8;
-		active_edge	: std_logic := '1'
+		word_wid 	: integer := 8
 		);
 		
 	port (	
@@ -31,7 +30,7 @@ begin
 	-- generates a bunch of registers - see names on rtl viewer
 	GEN_REG: 
    for k in 0 to array_wid-1 generate
-      REGX : work.DFFQ generic map (word_wid) port map (regClock(k), regDs(k), regQs(k), active_edge);
+      REGX : work.DFF_Rising generic map (word_wid) port map (regClock(k), regDs(k), regQs(k));
    end generate GEN_REG;
 	
 	

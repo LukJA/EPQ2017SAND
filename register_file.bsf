@@ -55,11 +55,6 @@ agreement for further details.
 		"8"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"active_edge"
-		"'1'"
-		""
-		(type "PARAMETER_ENUM")	)
 	(drawing
 		(rectangle (rect 16 16 376 64)(line_width 1))
 	)

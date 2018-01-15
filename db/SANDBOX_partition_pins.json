@@ -2,7 +2,76 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "ALUO[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ClockIn",
+					"strict" : false
+				}
+			]
 		}
 	]
 }
