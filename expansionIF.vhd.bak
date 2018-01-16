@@ -1,0 +1,27 @@
+/* expansionIF .vhd */
+/* A protoype expansion interface */
+/* --designed for modular general use under the K1 standard */
+/* (c) Luke Andrews 2017 */
+/* All software is written under the MIT license */
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.global.all;
+
+entity expansionIF is 
+
+	port (
+		Enable			: in std_logic := '0'; -- active high
+		ReadWrite		: in std_logic := '0'; -- 0 Write, 1 read
+	);
+
+end expansionIF;
+
+architecture func of expansionIF is
+
+begin
+
+end func;
+	
+

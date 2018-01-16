@@ -13,7 +13,8 @@ entity ID is
 		ALU_OP	: out std_logic_vector(3 downto 0);
 		OVERFLOW, ZERO, EQIN	: in std_logic;
 		PCOut : out std_logic_vector(7 downto 0);
-		jumpEn : inout std_logic
+		jumpEn : inout std_logic;
+		addDat, readWri, enab	: out std_logic := '0'
 		);
 		
 end ID;
@@ -38,6 +39,11 @@ begin
 	-- set ALU to follow through
 	ALU_OP <= "0000";
 	
+	-- disable expansion interface
+	addDat	<= '0';
+	readWri	<= '0';
+	enab		<= '0';
+	
 	jumpEn <= '0';
 		
 		case CIR(15 downto 12) is
@@ -51,6 +57,10 @@ begin
 				-- set addresses to 0x00 and 0x01
 				reg_addr1 <= "000000";
 				reg_addr2 <= "000001";
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 		
 			when "0001" =>
 				-- MOV instruction
@@ -60,6 +70,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0000"; -- set ALU to follow through
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			when "0010" =>
 				-- LDI instruction
@@ -69,6 +83,10 @@ begin
 				reg_addr1 <= ("000000") or CIR(11 downto 8);	-- use the next 4 to address the first 16 regs
 				reg_addr2 <= "000000";	-- default
 				ALU_OP <= "0000"; -- set ALU to follow through
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 			
 			when "0011" =>
 				-- ADD instruction
@@ -78,6 +96,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0001"; -- set ALU to ADD
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			when "0100" =>
 				-- SUB instruction
@@ -87,6 +109,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0010"; -- set ALU to SUB
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			when "0101" =>
 				-- AND instruction
@@ -96,6 +122,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0011"; -- set ALU to AND
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			when "0110" =>
 				-- OR instruction
@@ -105,6 +135,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0110"; -- set ALU to OR
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			when "0111" =>
 				-- XOR instruction
@@ -114,6 +148,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0101"; -- set ALU to XOR
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			when "1000" =>
 				-- NOT instruction
@@ -123,6 +161,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0100"; -- set ALU to NOT
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			when "1001" =>
 				-- INC instruction
@@ -132,6 +174,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0111"; -- set ALU to INC
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 			------------------------------------------
 				
@@ -144,6 +190,10 @@ begin
 				reg_addr1 <= "000000";
 				reg_addr2 <= "000001";
 				ALU_OP <= "0000";
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 				PCOut <= CIR(7 downto 0);	-- set the new location
 				jumpEn <= '1';					-- tell it to jump next clock
@@ -156,6 +206,10 @@ begin
 				reg_addr1 <= CIR(11 downto 6);
 				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				ALU_OP <= "0000"; -- set ALU to follow through
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 				-- latch the result
 				EQ_LAT <= EQIN;
@@ -171,6 +225,10 @@ begin
 					reg_addr1 <= "000000";
 					reg_addr2 <= "000001";
 					ALU_OP <= "0000";
+					-- disable expansion interface
+					addDat	<= '0';
+					readWri	<= '0';
+					enab		<= '0';
 				
 					PCOut <= CIR(7 downto 0);	-- set the new location
 					jumpEn <= '1';		
@@ -187,12 +245,32 @@ begin
 					reg_addr1 <= "000000";
 					reg_addr2 <= "000001";
 					ALU_OP <= "0000";
+					-- disable expansion interface
+					addDat	<= '0';
+					readWri	<= '0';
+					enab		<= '0';
 					
 					PCOut <= CIR(7 downto 0);	-- set the new location
 					jumpEn <= '1';	
 					
 				end if;
-			
+				
+			when "1110" =>
+				-- expansion read write data (combined instruction)
+				enab <= '1';
+				-- set to data
+				addDat <= '1';
+				-- set to read of write 
+				readWri <= CIR(11);
+				
+				
+			when "1111" =>
+				-- expansion address set 
+				-- enable block
+				enab <= '1';
+				-- set to address
+				addDat <= '0';
+				
 			
 			when others =>
 				-- defaults
@@ -202,6 +280,10 @@ begin
 				reg_addr1 <= "000000";
 				reg_addr2 <= "000001";
 				ALU_OP <= "0000";
+				-- disable expansion interface
+				addDat	<= '0';
+				readWri	<= '0';
+				enab		<= '0';
 				
 		end case;
 	

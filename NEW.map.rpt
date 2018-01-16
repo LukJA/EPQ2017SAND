@@ -1,5 +1,5 @@
 Analysis & Synthesis report for NEW
-Tue Jan 16 16:09:38 2018
+Tue Jan 16 21:44:25 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -124,7 +124,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Jan 16 16:09:38 2018       ;
+; Analysis & Synthesis Status     ; Successful - Tue Jan 16 21:44:25 2018       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; NEW                                         ;
 ; Top-level Entity Name           ; SANDBOX                                     ;
@@ -270,6 +270,7 @@ agreement for further details.
 ; InstructionDecoder.vhd           ; yes             ; User VHDL File                     ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd       ;         ;
 ; global.vhd                       ; yes             ; User VHDL File                     ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/global.vhd                   ;         ;
 ; ALUV1S1_unsigned.vhd             ; yes             ; User VHDL File                     ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/ALUV1S1_unsigned.vhd         ;         ;
+; expansionIF.vhd                  ; yes             ; User VHDL File                     ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd              ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                       ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                       ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
@@ -288,14 +289,14 @@ agreement for further details.
 +---------------------------------------------+------------------+
 ; Resource                                    ; Usage            ;
 +---------------------------------------------+------------------+
-; Estimate of Logic utilization (ALMs needed) ; 1098             ;
+; Estimate of Logic utilization (ALMs needed) ; 1099             ;
 ;                                             ;                  ;
-; Combinational ALUT usage for logic          ; 1211             ;
-;     -- 7 input functions                    ; 0                ;
-;     -- 6 input functions                    ; 985              ;
+; Combinational ALUT usage for logic          ; 1212             ;
+;     -- 7 input functions                    ; 512              ;
+;     -- 6 input functions                    ; 473              ;
 ;     -- 5 input functions                    ; 73               ;
 ;     -- 4 input functions                    ; 6                ;
-;     -- <=3 input functions                  ; 147              ;
+;     -- <=3 input functions                  ; 148              ;
 ;                                             ;                  ;
 ; Dedicated logic registers                   ; 520              ;
 ;                                             ;                  ;
@@ -305,10 +306,10 @@ agreement for further details.
 ;                                             ;                  ;
 ; Total DSP Blocks                            ; 0                ;
 ;                                             ;                  ;
-; Maximum fan-out node                        ; ID:inst5|Mux24~0 ;
+; Maximum fan-out node                        ; ID:inst5|Mux27~0 ;
 ; Maximum fan-out                             ; 520              ;
-; Total fan-out                               ; 7911             ;
-; Average fan-out                             ; 4.44             ;
+; Total fan-out                               ; 8426             ;
+; Average fan-out                             ; 4.73             ;
 +---------------------------------------------+------------------+
 
 
@@ -317,9 +318,9 @@ agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                   ; Entity Name      ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+------------------+--------------+
-; |SANDBOX                                  ; 1211 (0)            ; 520 (0)                   ; 4096              ; 0          ; 17   ; 0            ; |SANDBOX                                                                              ; SANDBOX          ; work         ;
+; |SANDBOX                                  ; 1212 (0)            ; 520 (0)                   ; 4096              ; 0          ; 17   ; 0            ; |SANDBOX                                                                              ; SANDBOX          ; work         ;
 ;    |ALUV1S1_unsigned:inst1|               ; 52 (52)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|ALUV1S1_unsigned:inst1                                                       ; ALUV1S1_unsigned ; work         ;
-;    |ID:inst5|                             ; 111 (111)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|ID:inst5                                                                     ; ID               ; work         ;
+;    |ID:inst5|                             ; 112 (112)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|ID:inst5                                                                     ; ID               ; work         ;
 ;    |PCV1S1:inst|                          ; 8 (8)               ; 8 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|PCV1S1:inst                                                                  ; PCV1S1           ; work         ;
 ;       |DFFQ:PC_register_R|                ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|PCV1S1:inst|DFFQ:PC_register_R                                               ; DFFQ             ; work         ;
 ;    |PMemory:inst2|                        ; 0 (0)               ; 0 (0)                     ; 4096              ; 0          ; 0    ; 0            ; |SANDBOX|PMemory:inst2                                                                ; PMemory          ; work         ;
@@ -413,15 +414,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------+---------------------+------------------------+
 ; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
 +----------------------------------------------------+---------------------+------------------------+
-; ID:inst5|PCOut[7]                                  ; ID:inst5|Mux35      ; yes                    ;
-; ID:inst5|EQ_LAT                                    ; ID:inst5|Mux26      ; yes                    ;
-; ID:inst5|PCOut[6]                                  ; ID:inst5|Mux35      ; yes                    ;
-; ID:inst5|PCOut[5]                                  ; ID:inst5|Mux35      ; yes                    ;
-; ID:inst5|PCOut[4]                                  ; ID:inst5|Mux35      ; yes                    ;
-; ID:inst5|PCOut[3]                                  ; ID:inst5|Mux35      ; yes                    ;
-; ID:inst5|PCOut[2]                                  ; ID:inst5|Mux35      ; yes                    ;
-; ID:inst5|PCOut[1]                                  ; ID:inst5|Mux35      ; yes                    ;
-; ID:inst5|PCOut[0]                                  ; ID:inst5|Mux35      ; yes                    ;
+; ID:inst5|PCOut[7]                                  ; ID:inst5|Mux38      ; yes                    ;
+; ID:inst5|EQ_LAT                                    ; ID:inst5|Mux29      ; yes                    ;
+; ID:inst5|PCOut[6]                                  ; ID:inst5|Mux38      ; yes                    ;
+; ID:inst5|PCOut[5]                                  ; ID:inst5|Mux38      ; yes                    ;
+; ID:inst5|PCOut[4]                                  ; ID:inst5|Mux38      ; yes                    ;
+; ID:inst5|PCOut[3]                                  ; ID:inst5|Mux38      ; yes                    ;
+; ID:inst5|PCOut[2]                                  ; ID:inst5|Mux38      ; yes                    ;
+; ID:inst5|PCOut[1]                                  ; ID:inst5|Mux38      ; yes                    ;
+; ID:inst5|PCOut[0]                                  ; ID:inst5|Mux38      ; yes                    ;
 ; Number of user-specified and inferred latches = 9  ;                     ;                        ;
 +----------------------------------------------------+---------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
@@ -447,10 +448,10 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; No         ; |SANDBOX|ID:inst5|Mux33                     ;
-; 9:1                ; 7 bits    ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Mux3        ;
-; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst4|outputs[7] ;
-; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst5|outputs[5] ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; No         ; |SANDBOX|ID:inst5|Mux37                     ;
+; 9:1                ; 7 bits    ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Mux6        ;
+; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst4|outputs[6] ;
+; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst5|outputs[3] ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
 
 
@@ -1315,16 +1316,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; arriav_ff             ; 520                         ;
 ;     SLD               ; 8                           ;
 ;     plain             ; 512                         ;
-; arriav_lcell_comb     ; 1211                        ;
+; arriav_lcell_comb     ; 1212                        ;
 ;     arith             ; 24                          ;
 ;         1 data inputs ; 16                          ;
 ;         2 data inputs ; 8                           ;
-;     normal            ; 1179                        ;
+;     extend            ; 512                         ;
+;         7 data inputs ; 512                         ;
+;     normal            ; 668                         ;
 ;         2 data inputs ; 35                          ;
-;         3 data inputs ; 80                          ;
+;         3 data inputs ; 81                          ;
 ;         4 data inputs ; 6                           ;
 ;         5 data inputs ; 73                          ;
-;         6 data inputs ; 985                         ;
+;         6 data inputs ; 473                         ;
 ;     shared            ; 8                           ;
 ;         2 data inputs ; 8                           ;
 ; boundary_port         ; 17                          ;
@@ -1340,7 +1343,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:05     ;
 +----------------+--------------+
 
 
@@ -1350,7 +1353,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Tue Jan 16 16:09:06 2018
+    Info: Processing started: Tue Jan 16 21:44:08 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SANDBOX -c NEW
 Info (16303): Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
@@ -1393,7 +1396,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file pcv1s1.
     Info (12022): Found design unit 1: PCV1S1-impl File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PCV1S1.vhd Line: 26
     Info (12023): Found entity 1: PCV1S1 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PCV1S1.vhd Line: 12
 Info (12021): Found 2 design units, including 1 entities, in source file instructiondecoder.vhd
-    Info (12022): Found design unit 1: ID-behavioral File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 21
+    Info (12022): Found design unit 1: ID-behavioral File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 22
     Info (12023): Found entity 1: ID File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 7
 Info (12021): Found 2 design units, including 0 entities, in source file global.vhd
     Info (12022): Found design unit 1: global File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/global.vhd Line: 11
@@ -1401,6 +1404,9 @@ Info (12021): Found 2 design units, including 0 entities, in source file global.
 Info (12021): Found 2 design units, including 1 entities, in source file aluv1s1_unsigned.vhd
     Info (12022): Found design unit 1: ALUV1S1_unsigned-behavioral File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/ALUV1S1_unsigned.vhd Line: 33
     Info (12023): Found entity 1: ALUV1S1_unsigned File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/ALUV1S1_unsigned.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file expansionif.vhd
+    Info (12022): Found design unit 1: expansionIF-func File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 26
+    Info (12023): Found entity 1: expansionIF File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 12
 Info (12127): Elaborating entity "SANDBOX" for the top level hierarchy
 Warning (275083): Bus "OUT2[7..0]" found using same base name as "OUT", which might lead to a name conflict.
 Warning (275080): Converted elements in bus name "OUT" using legacy naming rules. Make any assignments on the new names, not on the original names.
@@ -1408,23 +1414,24 @@ Warning (275080): Converted elements in bus name "OUT" using legacy naming rules
 Warning (275080): Converted elements in bus name "OUT2" using legacy naming rules. Make any assignments on the new names, not on the original names.
     Warning (275081): Converted element name(s) from "OUT2[7..0]" to "OUT27..0"
 Warning (275002): No superset bus at connection
+Warning (275002): No superset bus at connection
 Info (12128): Elaborating entity "ALUV1S1_unsigned" for hierarchy "ALUV1S1_unsigned:inst1"
 Warning (10541): VHDL Signal Declaration warning at ALUV1S1_unsigned.vhd(28): used implicit default value for signal "Greater" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/ALUV1S1_unsigned.vhd Line: 28
 Warning (10631): VHDL Process Statement warning at ALUV1S1_unsigned.vhd(109): inferring latch(es) for signal or variable "overflow", which holds its previous value in one or more paths through the process File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/ALUV1S1_unsigned.vhd Line: 109
 Info (10041): Inferred latch for "overflow" at ALUV1S1_unsigned.vhd(109) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/ALUV1S1_unsigned.vhd Line: 109
 Info (12128): Elaborating entity "ID" for hierarchy "ID:inst5"
-Warning (10036): Verilog HDL or VHDL warning at InstructionDecoder.vhd(23): object "Z_LAT" assigned a value but never read File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 23
-Warning (10631): VHDL Process Statement warning at InstructionDecoder.vhd(208): inferring latch(es) for signal or variable "PCOut", which holds its previous value in one or more paths through the process File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Warning (10631): VHDL Process Statement warning at InstructionDecoder.vhd(208): inferring latch(es) for signal or variable "EQ_LAT", which holds its previous value in one or more paths through the process File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "EQ_LAT" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[0]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[1]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[2]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[3]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[4]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[5]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[6]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
-Info (10041): Inferred latch for "PCOut[7]" at InstructionDecoder.vhd(208) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (10036): Verilog HDL or VHDL warning at InstructionDecoder.vhd(24): object "Z_LAT" assigned a value but never read File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 24
+Warning (10631): VHDL Process Statement warning at InstructionDecoder.vhd(290): inferring latch(es) for signal or variable "PCOut", which holds its previous value in one or more paths through the process File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Warning (10631): VHDL Process Statement warning at InstructionDecoder.vhd(290): inferring latch(es) for signal or variable "EQ_LAT", which holds its previous value in one or more paths through the process File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "EQ_LAT" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[0]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[1]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[2]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[3]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[4]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[5]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[6]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
+Info (10041): Inferred latch for "PCOut[7]" at InstructionDecoder.vhd(290) File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
 Info (12128): Elaborating entity "PMemory" for hierarchy "PMemory:inst2"
 Info (12128): Elaborating entity "altsyncram" for hierarchy "PMemory:inst2|altsyncram:altsyncram_component" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PMemory.vhd Line: 61
 Info (12130): Elaborated megafunction instantiation "PMemory:inst2|altsyncram:altsyncram_component" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PMemory.vhd Line: 61
@@ -1496,51 +1503,57 @@ Info (12128): Elaborating entity "DFF_Rising" for hierarchy "r_block:inst4|regis
 Info (12128): Elaborating entity "R_P_control" for hierarchy "r_block:inst4|R_P_control:inst1"
 Info (12128): Elaborating entity "array_or" for hierarchy "r_block:inst4|array_or:inst6"
 Info (12128): Elaborating entity "demux" for hierarchy "r_block:inst4|demux:inst2"
+Info (12128): Elaborating entity "expansionIF" for hierarchy "expansionIF:inst8"
+Warning (10036): Verilog HDL or VHDL warning at expansionIF.vhd(28): object "bufferIn" assigned a value but never read File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 28
+Warning (10540): VHDL Signal Declaration warning at expansionIF.vhd(28): used explicit default value for signal "bufferOut" because signal was never assigned a value File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 28
+Warning (10492): VHDL Process Statement warning at expansionIF.vhd(34): signal "dataIn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 34
+Warning (10492): VHDL Process Statement warning at expansionIF.vhd(36): signal "dataIn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 36
+Warning (10492): VHDL Process Statement warning at expansionIF.vhd(37): signal "bufferOut" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 37
 Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer ID:inst5|Mux22 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux21 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux20 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux19 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux18 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux17 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux10 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux16 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux15 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux14 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux13 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux12 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux11 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-    Warning (19017): Found clock multiplexer ID:inst5|Mux9 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 43
-Warning (13012): Latch ID:inst5|PCOut[7] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+    Warning (19017): Found clock multiplexer ID:inst5|Mux22 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux21 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux20 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux19 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux18 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux17 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux10 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux16 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux15 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux14 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux13 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux12 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux11 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+    Warning (19017): Found clock multiplexer ID:inst5|Mux9 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 49
+Warning (13012): Latch ID:inst5|PCOut[7] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|EQ_LAT has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 23
+Warning (13012): Latch ID:inst5|EQ_LAT has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 24
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[15] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|PCOut[6] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (13012): Latch ID:inst5|PCOut[6] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|PCOut[5] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (13012): Latch ID:inst5|PCOut[5] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|PCOut[4] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (13012): Latch ID:inst5|PCOut[4] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|PCOut[3] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (13012): Latch ID:inst5|PCOut[3] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|PCOut[2] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (13012): Latch ID:inst5|PCOut[2] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|PCOut[1] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (13012): Latch ID:inst5|PCOut[1] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
-Warning (13012): Latch ID:inst5|PCOut[0] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 208
+Warning (13012): Latch ID:inst5|PCOut[0] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 290
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_s134:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_s134.tdf Line: 33
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1244 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1245 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
     Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 1211 logic cells
+    Info (21061): Implemented 1212 logic cells
     Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 50 warnings
-    Info: Peak virtual memory: 819 megabytes
-    Info: Processing ended: Tue Jan 16 16:09:38 2018
-    Info: Elapsed time: 00:00:32
-    Info: Total CPU time (on all processors): 00:00:39
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 56 warnings
+    Info: Peak virtual memory: 815 megabytes
+    Info: Processing ended: Tue Jan 16 21:44:25 2018
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:29
 
 
