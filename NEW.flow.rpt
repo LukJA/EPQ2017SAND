@@ -1,5 +1,5 @@
 Flow report for NEW
-Tue Jan 16 15:50:04 2018
+Tue Jan 16 16:13:20 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,25 +41,25 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Jan 16 15:50:04 2018       ;
+; Flow Status                     ; Successful - Tue Jan 16 16:12:03 2018       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; NEW                                         ;
 ; Top-level Entity Name           ; SANDBOX                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 520                                         ;
-; Total pins                      ; 17                                          ;
+; Logic utilization (in ALMs)     ; 1,085 / 18,480 ( 6 % )                      ;
+; Total registers                 ; 1769                                        ;
+; Total pins                      ; 17 / 224 ( 8 % )                            ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 4,096                                       ;
-; Total DSP Blocks                ; 0                                           ;
+; Total block memory bits         ; 4,096 / 3,153,920 ( < 1 % )                 ;
+; Total DSP Blocks                ; 0 / 66 ( 0 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
 ; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
+; Total PLLs                      ; 0 / 4 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
 
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/16/2018 15:49:41 ;
+; Start date & time ; 01/16/2018 16:09:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; NEW                 ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +--------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID                ; 174508025295553.151611778119216        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID                ; 174508025295553.151611894715224        ; --            ; --          ; --         ;
 ; FITTER_EFFORT                        ; Standard Fit                           ; Auto Fit      ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --         ;
@@ -104,29 +104,35 @@ agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 815 MB              ; 00:00:33                           ;
-; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:33                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:32     ; 1.0                     ; 819 MB              ; 00:00:38                           ;
+; Fitter                    ; 00:02:24     ; 1.4                     ; 2310 MB             ; 00:04:30                           ;
+; TimeQuest Timing Analyzer ; 00:01:15     ; 1.2                     ; 1075 MB             ; 00:01:25                           ;
+; Total                     ; 00:04:11     ; --                      ; --                  ; 00:06:33                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-N99POKM  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-N99POKM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-N99POKM  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-N99POKM  ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off SANDBOX -c NEW
+quartus_fit --read_settings_files=off --write_settings_files=off SANDBOX -c NEW
+quartus_sta SANDBOX -c NEW
 
 
 
