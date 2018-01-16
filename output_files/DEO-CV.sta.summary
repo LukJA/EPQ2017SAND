@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -12.115
+TNS   : -2631.920
+
+Type  : Slow 1200mV 85C Model Setup 'ClockIn'
+Slack : -4.218
+TNS   : -1061.219
+
+Type  : Slow 1200mV 85C Model Hold 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -4.358
+TNS   : -260.038
+
+Type  : Slow 1200mV 85C Model Hold 'ClockIn'
+Slack : -0.706
+TNS   : -4.918
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.816
+TNS   : -804.233
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockIn'
+Slack : 8.670
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -10.899
+TNS   : -2351.644
+
+Type  : Slow 1200mV 0C Model Setup 'ClockIn'
+Slack : -2.717
+TNS   : -442.833
+
+Type  : Slow 1200mV 0C Model Hold 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -4.031
+TNS   : -229.867
+
+Type  : Slow 1200mV 0C Model Hold 'ClockIn'
+Slack : -0.732
+TNS   : -4.810
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.821
+TNS   : -721.306
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockIn'
+Slack : 8.805
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -6.783
+TNS   : -1429.300
+
+Type  : Fast 1200mV 0C Model Setup 'ClockIn'
+Slack : 1.808
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.415
+TNS   : -147.894
+
+Type  : Fast 1200mV 0C Model Hold 'ClockIn'
+Slack : -0.703
+TNS   : -8.766
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.332
+TNS   : -75.248
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockIn'
+Slack : 8.761
+TNS   : 0.000
+
+------------------------------------------------------------

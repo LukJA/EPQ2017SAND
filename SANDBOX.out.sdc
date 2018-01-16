@@ -39,9 +39,7 @@ set_time_format -unit ns -decimal_places 3
 # Create Clock
 #**************************************************************
 
-create_clock -name {ClockIn} -period 20.000 [get_ports {ClockIn}]
-create_clock -name {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0} -period 20.000 -waveform { 0.000 0.500 } [get_registers {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]
-
+create_clock -name {ClockIn} -period 100.000 [get_ports {ClockIn}]
 
 #**************************************************************
 # Create Generated Clock
@@ -57,36 +55,7 @@ create_clock -name {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs
 
 #**************************************************************
 # Set Clock Uncertainty
-#**************************************************************
-
-set_clock_uncertainty -rise_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -rise_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.020  
-set_clock_uncertainty -rise_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -fall_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.020  
-set_clock_uncertainty -rise_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -rise_to [get_clocks {ID:inst5|EQ_LAT}]  0.020  
-set_clock_uncertainty -rise_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -fall_to [get_clocks {ID:inst5|EQ_LAT}]  0.020  
-set_clock_uncertainty -rise_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -rise_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -fall_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -rise_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.020  
-set_clock_uncertainty -fall_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -fall_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.020  
-set_clock_uncertainty -fall_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -rise_to [get_clocks {ID:inst5|EQ_LAT}]  0.020  
-set_clock_uncertainty -fall_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -fall_to [get_clocks {ID:inst5|EQ_LAT}]  0.020  
-set_clock_uncertainty -fall_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -rise_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}] -fall_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {ID:inst5|EQ_LAT}] -rise_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {ID:inst5|EQ_LAT}] -fall_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {ID:inst5|EQ_LAT}] -rise_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {ID:inst5|EQ_LAT}] -fall_to [get_clocks {ClockIn}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {ClockIn}] -rise_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {ClockIn}] -fall_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {ClockIn}] -rise_to [get_clocks {ID:inst5|EQ_LAT}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {ClockIn}] -fall_to [get_clocks {ID:inst5|EQ_LAT}]  0.030  
-set_clock_uncertainty -rise_from [get_clocks {ClockIn}] -rise_to [get_clocks {ClockIn}]  0.020  
-set_clock_uncertainty -rise_from [get_clocks {ClockIn}] -fall_to [get_clocks {ClockIn}]  0.020  
-set_clock_uncertainty -fall_from [get_clocks {ClockIn}] -rise_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {ClockIn}] -fall_to [get_clocks {PMemory:inst2|altsyncram:altsyncram_component|altsyncram_crs3:auto_generated|ram_block1a0~porta_address_reg0}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {ClockIn}] -rise_to [get_clocks {ID:inst5|EQ_LAT}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {ClockIn}] -fall_to [get_clocks {ID:inst5|EQ_LAT}]  0.030  
-set_clock_uncertainty -fall_from [get_clocks {ClockIn}] -rise_to [get_clocks {ClockIn}]  0.020  
-set_clock_uncertainty -fall_from [get_clocks {ClockIn}] -fall_to [get_clocks {ClockIn}]  0.020  
+#************************************************************** 
 
 
 #**************************************************************

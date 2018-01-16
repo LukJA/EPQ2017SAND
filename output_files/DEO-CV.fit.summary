@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Jan 15 22:00:47 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : DEO-CV
+Top-level Entity Name : SANDBOX
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 1,602 / 22,320 ( 7 % )
+    Total combinational functions : 1,602 / 22,320 ( 7 % )
+    Dedicated logic registers : 520 / 22,320 ( 2 % )
+Total registers : 520
+Total pins : 17 / 154 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 4,096 / 608,256 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

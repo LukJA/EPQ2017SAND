@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Jan 15 22:47:56 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : NEW
+Top-level Entity Name : SANDBOX
+Family : Cyclone V
+Device : 5CEBA4F23C7
+Timing Models : Final
+Logic utilization (in ALMs) : 997 / 18,480 ( 5 % )
+Total registers : 520
+Total pins : 17 / 224 ( 8 % )
+Total virtual pins : 0
+Total block memory bits : 4,096 / 3,153,920 ( < 1 % )
+Total RAM Blocks : 1 / 308 ( < 1 % )
+Total DSP Blocks : 0 / 66 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 4 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )
