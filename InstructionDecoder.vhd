@@ -268,6 +268,9 @@ begin
 				addDat <= '1';
 				-- set to read of write 
 				readWri <= CIR(11);
+				-- set the number choice
+				reg_addr1 <= CIR(5 downto 0);
+				ALU_OP <= "0000"; -- set ALU to follow through
 				
 				
 			when "1111" =>
@@ -276,6 +279,9 @@ begin
 				enab <= '1';
 				-- set to address
 				addDat <= '0';
+				-- set the pointer registers
+				reg_addr1 <= CIR(11 downto 6);
+				reg_addr2 <= CIR(5 downto 0);	-- select the sddress lines
 				
 			
 			when others =>

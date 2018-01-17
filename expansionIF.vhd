@@ -19,10 +19,11 @@ entity expansionIF is
 		
 		dataIn			: in std_logic_vector(7 downto 0) := (others => '0');
 		dataOut			: out std_logic_vector(7 downto 0) := (others => '0');
+		AddressIn		: in std_logic_vector(15 downto 0) := (others => '0');
 		
 		streamIn			: in std_logic_vector(7 downto 0) := (others => '0');
 		streamOut		: out std_logic_vector(7 downto 0) := (others => '0');
-		Address			: out std_logic_vector(11 downto 0) := (others => '0');
+		AddressOut		: out std_logic_vector(15 downto 0) := (others => '0');
 		clkO				: out std_logic := '0'
 	);
 
@@ -39,7 +40,7 @@ begin
 	clkO <= (not Clock) and outClockEn;
 	
 	-- setup the address register combinationally
-	addressStorage: entity work.DFF_rising generic map (12) port map ((not addressData) and Clock and enable, bufferIn, Address);
+	addressStorage: entity work.DFF_rising generic map (16) port map ((not addressData) and Clock and enable, AddressIn, AddressOut);
 	
 	-- connect buffer lines to memory bus
 	streamOut <= bufferIn;
