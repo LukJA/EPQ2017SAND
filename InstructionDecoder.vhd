@@ -7,13 +7,19 @@ use work.global.all;
 entity ID is 
 	port (	
 		CIR	: in std_logic_vector(15 downto 0);
+		
 		reg_D1	: out std_logic_vector(7 downto 0);
+		
 		reg_clk1_EN, reg_clk2_EN	: out std_logic := '0';
+		
 		reg_addr1, reg_addr2	: out	std_logic_vector(5 downto 0);
+		
 		ALU_OP	: out std_logic_vector(3 downto 0);
 		OVERFLOW, ZERO, EQIN	: in std_logic;
+		
 		PCOut : out std_logic_vector(7 downto 0);
 		jumpEn : inout std_logic;
+		
 		addDat, readWri, enab	: out std_logic := '0'
 		);
 		
