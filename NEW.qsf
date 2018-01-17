@@ -83,7 +83,6 @@ set_global_assignment -name VHDL_FILE vector_muxes.vhd
 set_global_assignment -name VHDL_FILE reg_port_control.vhd
 set_global_assignment -name VHDL_FILE register_array.vhd
 set_global_assignment -name VHDL_FILE REG.vhd
-set_global_assignment -name VHDL_FILE PMemory.vhd
 set_global_assignment -name VHDL_FILE PCV1S1.vhd
 set_global_assignment -name VHDL_FILE InstructionDecoder.vhd
 set_global_assignment -name VHDL_FILE global.vhd

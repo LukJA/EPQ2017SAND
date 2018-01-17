@@ -17,7 +17,7 @@ entity ID is
 		ALU_OP	: out std_logic_vector(3 downto 0);
 		OVERFLOW, ZERO, EQIN	: in std_logic;
 		
-		PCOut : out std_logic_vector(7 downto 0);
+		PCOut : out std_logic_vector(11 downto 0);
 		jumpEn : inout std_logic;
 		
 		addDat, readWri, enab	: out std_logic := '0'
@@ -201,7 +201,7 @@ begin
 				readWri	<= '0';
 				enab		<= '0';
 				
-				PCOut <= CIR(7 downto 0);	-- set the new location
+				PCOut <= CIR(11 downto 0);	-- set the new location
 				jumpEn <= '1';					-- tell it to jump next clock
 				
 			when "1011" =>
@@ -236,7 +236,7 @@ begin
 					readWri	<= '0';
 					enab		<= '0';
 				
-					PCOut <= CIR(7 downto 0);	-- set the new location
+					PCOut <= CIR(11 downto 0);	-- set the new location
 					jumpEn <= '1';		
 					
 				end if;
@@ -256,7 +256,7 @@ begin
 					readWri	<= '0';
 					enab		<= '0';
 					
-					PCOut <= CIR(7 downto 0);	-- set the new location
+					PCOut <= CIR(11 downto 0);	-- set the new location
 					jumpEn <= '1';	
 					
 				end if;
