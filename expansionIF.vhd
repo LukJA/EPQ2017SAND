@@ -57,7 +57,8 @@ begin
 		end if;
 	end process;
 	
-	process(rising_edge(Clock))begin
+	process(Clock)begin
+		if rising_edge(Clock) then
 		-- this is the clock edge where we control data
 		if outClockEn = '1' then outClockEn <= '0'; end if;
 		
@@ -68,6 +69,7 @@ begin
 				-- enable the clock
 				outClockEn <= '1';
 			end if;
+		end if;
 		end if;
 				
 	end process;

@@ -1,5 +1,5 @@
 Flow report for NEW
-Tue Jan 16 21:47:06 2018
+Wed Jan 17 21:14:56 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Jan 16 21:46:07 2018       ;
+; Flow Status                     ; Successful - Wed Jan 17 21:13:56 2018       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; NEW                                         ;
 ; Top-level Entity Name           ; SANDBOX                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1,230 / 18,480 ( 7 % )                      ;
-; Total registers                 ; 1831                                        ;
-; Total pins                      ; 17 / 224 ( 8 % )                            ;
+; Logic utilization (in ALMs)     ; 1,244 / 18,480 ( 7 % )                      ;
+; Total registers                 ; 1860                                        ;
+; Total pins                      ; 9 / 224 ( 4 % )                             ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 4,096 / 3,153,920 ( < 1 % )                 ;
+; Total block memory bits         ; 65,536 / 3,153,920 ( 2 % )                  ;
 ; Total DSP Blocks                ; 0 / 66 ( 0 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/16/2018 21:44:08 ;
+; Start date & time ; 01/17/2018 21:11:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; NEW                 ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +--------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID                ; 174508025295553.151613904810604        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID                ; 174508025295553.151622351525236        ; --            ; --          ; --         ;
 ; FITTER_EFFORT                        ; Standard Fit                           ; Auto Fit      ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --         ;
@@ -109,11 +109,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 815 MB              ; 00:00:29                           ;
-; Fitter                    ; 00:01:34     ; 1.3                     ; 2342 MB             ; 00:03:08                           ;
-; Assembler                 ; 00:00:05     ; 1.0                     ; 749 MB              ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:58     ; 1.2                     ; 1071 MB             ; 00:01:07                           ;
-; Total                     ; 00:02:53     ; --                      ; --                  ; 00:04:48                           ;
+; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 813 MB              ; 00:00:27                           ;
+; Fitter                    ; 00:01:37     ; 1.3                     ; 2345 MB             ; 00:03:09                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 755 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:59     ; 1.2                     ; 1080 MB             ; 00:01:07                           ;
+; Total                     ; 00:02:56     ; --                      ; --                  ; 00:04:47                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

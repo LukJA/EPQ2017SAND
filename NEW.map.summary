@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Tue Jan 16 21:44:25 2018
+Analysis & Synthesis Status : Successful - Wed Jan 17 21:12:11 2018
 Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : NEW
 Top-level Entity Name : SANDBOX
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 520
-Total pins : 17
+Total registers : 524
+Total pins : 9
 Total virtual pins : 0
-Total block memory bits : 4,096
+Total block memory bits : 65,536
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
