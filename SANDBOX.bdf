@@ -640,10 +640,6 @@ agreement for further details.
 	(pt 848 312)
 )
 (connector
-	(pt 848 336)
-	(pt 848 312)
-)
-(connector
 	(pt 848 312)
 	(pt 848 264)
 )
@@ -1029,6 +1025,18 @@ agreement for further details.
 	(pt 1064 504)
 	(pt 1096 504)
 )
+(connector
+	(pt 1096 488)
+	(pt 848 488)
+)
+(connector
+	(pt 848 312)
+	(pt 848 336)
+)
+(connector
+	(pt 848 336)
+	(pt 848 488)
+)
 (junction (pt 136 336))
 (junction (pt 848 312))
 (junction (pt 1488 240))
@@ -1044,4 +1052,5 @@ agreement for further details.
 (junction (pt 432 296))
 (junction (pt 1064 472))
 (junction (pt 1064 456))
+(junction (pt 848 336))
 (text "Main Block File" (rect 24 56 112 75)(font "Intel Clear" (font_size 8)))
