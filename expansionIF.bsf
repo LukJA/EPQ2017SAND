@@ -23,7 +23,7 @@ agreement for further details.
 (symbol
 	(rect 64 64 304 240)
 	(text "expansionIF" (rect 5 0 65 12)(font "Arial" ))
-	(text "inst" (rect 8 136 25 148)(font "Arial" ))
+	(text "inst" (rect 8 144 25 156)(font "Arial" ))
 	(port
 		(pt 0 72)
 		(input)
@@ -70,7 +70,7 @@ agreement for further details.
 		(pt 240 120)
 		(input)
 		(text "streamIn[7..0]" (rect 0 0 69 12)(font "Arial" ))
-		(text "streamIn[7..0]" (rect 144 112 213 124)(font "Arial" ))
+		(text "streamIn[7..0]" (rect 146 112 215 124)(font "Arial" ))
 		(line (pt 224 120)(pt 240 120)(line_width 3))
 	)
 	(port
@@ -84,21 +84,21 @@ agreement for further details.
 		(pt 240 104)
 		(output)
 		(text "streamOut[7..0]" (rect 0 0 77 12)(font "Arial" ))
-		(text "streamOut[7..0]" (rect 152 96 229 108)(font "Arial" ))
+		(text "streamOut[7..0]" (rect 154 99 219 111)(font "Arial" ))
 		(line (pt 240 104)(pt 224 104)(line_width 3))
 	)
 	(port
 		(pt 240 88)
 		(output)
 		(text "AddressOut[15..0]" (rect 0 0 89 12)(font "Arial" ))
-		(text "AddressOut[15..0]" (rect 144 80 233 92)(font "Arial" ))
+		(text "AddressOut[15..0]" (rect 144 83 219 95)(font "Arial" ))
 		(line (pt 240 88)(pt 224 88)(line_width 3))
 	)
 	(port
 		(pt 240 72)
 		(output)
 		(text "clkO" (rect 0 0 22 12)(font "Arial" ))
-		(text "clkO" (rect 200 64 222 76)(font "Arial" ))
+		(text "clkO" (rect 200 64 218 76)(font "Arial" ))
 		(line (pt 240 72)(pt 224 72))
 	)
 	(drawing
