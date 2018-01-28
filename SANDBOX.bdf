@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect 1136 688 1304 704)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "DataIN[7..0]" (rect 5 0 67 12)(font "Arial" ))
+	(text "DataIN[7..0]" (rect 5 0 66 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -54,9 +54,9 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 1680 592 1848 608)
+	(rect 1680 592 1868 608)
 	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
-	(text "PORT1IN" (rect 109 0 152 17)(font "Intel Clear" ))
+	(text "PORT1IN[15..0]" (rect 109 0 182 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 84 12)(pt 59 12))
@@ -89,7 +89,7 @@ agreement for further details.
 	(output)
 	(rect 1128 744 1304 760)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "Address[15..0]" (rect 5 0 73 17)(font "Intel Clear" ))
+	(text "Address[15..0]" (rect 5 0 72 17)(font "Intel Clear" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 176 8)(pt 124 8))
@@ -123,7 +123,7 @@ agreement for further details.
 	(output)
 	(rect 1128 712 1304 728)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "DataOUT[7..0]" (rect 5 0 77 12)(font "Arial" ))
+	(text "DataOUT[7..0]" (rect 5 0 76 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 176 8)(pt 124 8))
@@ -138,9 +138,9 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 1680 608 1856 624)
+	(rect 1680 608 1865 624)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "PORT1OUT" (rect 90 0 147 12)(font "Arial" ))
+	(text "PORT1OUT[15..0]" (rect 90 0 179 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -857,13 +857,13 @@ agreement for further details.
 	)
 	(parameter
 		"n"
-		"1"
+		"8"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
 	(drawing
 		(rectangle (rect 16 16 184 64))
 	)
-	(annotation_block (parameter)(rect 1160 608 1336 648))
+	(annotation_block (parameter)(rect 1160 608 1329 646))
 )
 (connector
 	(pt 952 240)

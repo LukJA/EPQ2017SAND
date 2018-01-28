@@ -42,10 +42,10 @@ begin
    end generate GEN_REG_sOut;
 	/* wire up the double width outputs */
 	strOUT1 <= out_stream_raw(1) & out_stream_raw(0);
-	strOUT1 <= out_stream_raw(3) & out_stream_raw(2);
-	strOUT1 <= out_stream_raw(5) & out_stream_raw(4);
-	strOUT1 <= out_stream_raw(7) & out_stream_raw(6);
-	strOUT1 <= out_stream_raw(9) & out_stream_raw(8);
+	strOUT2 <= out_stream_raw(3) & out_stream_raw(2);
+	strOUT3 <= out_stream_raw(5) & out_stream_raw(4);
+	strOUT4 <= out_stream_raw(7) & out_stream_raw(6);
+	strOUT5 <= out_stream_raw(9) & out_stream_raw(8);
 	
 	/* inputting registers */
 	/* input registers */
@@ -63,7 +63,7 @@ begin
 	in_stream_raw(6) <= strIN4(7 downto 0);
 	in_stream_raw(7) <= strIN4(15 downto 8);
 	in_stream_raw(8) <= strIN5(7 downto 0);
-	in_stream_raw(9) <= strIN5(15 downto 7);
+	in_stream_raw(9) <= strIN5(15 downto 8);
 	
 	/* setup the selection mux for ths data */
 	

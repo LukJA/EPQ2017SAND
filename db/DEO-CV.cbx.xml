@@ -1,5 +1,7 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
+	<PROJECT NAME="DEO-CV">
+	</PROJECT>
 	<PROJECT NAME="SANDBOX">
 	</PROJECT>
 </LOG_ROOT>

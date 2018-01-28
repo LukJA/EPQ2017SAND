@@ -4,6 +4,74 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "memclock",
+					"strict" : false
+				},
+				{
+					"name" : "Address[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Address[0]",
+					"strict" : false
+				},
+				{
 					"name" : "ALUO[7]",
 					"strict" : false
 				},
@@ -36,7 +104,199 @@
 					"strict" : false
 				},
 				{
+					"name" : "DataOUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DataOUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DataOUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DataOUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DataOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DataOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DataOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DataOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1OUT[0]",
+					"strict" : false
+				},
+				{
 					"name" : "ClockIn",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DataIN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[0]",
 					"strict" : false
 				}
 			]

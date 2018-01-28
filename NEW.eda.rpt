@@ -1,5 +1,5 @@
 EDA Netlist Writer report for NEW
-Wed Jan 24 20:43:26 2018
+Sun Jan 28 21:49:33 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Jan 24 20:43:26 2018 ;
+; EDA Netlist Writer Status ; Successful - Sun Jan 28 21:49:33 2018 ;
 ; Revision Name             ; NEW                                   ;
 ; Top-level Entity Name     ; SANDBOX                               ;
 ; Family                    ; Cyclone V                             ;
@@ -51,7 +51,8 @@ agreement for further details.
 ; Option                                                                                            ; Setting                ;
 +---------------------------------------------------------------------------------------------------+------------------------+
 ; Tool Name                                                                                         ; ModelSim-Altera (VHDL) ;
-; Generate functional simulation netlist                                                            ; On                     ;
+; Generate functional simulation netlist                                                            ; Off                    ;
+; Time scale                                                                                        ; 1 ps                   ;
 ; Truncate long hierarchy paths                                                                     ; Off                    ;
 ; Map illegal HDL characters                                                                        ; Off                    ;
 ; Flatten buses into individual nodes                                                               ; Off                    ;
@@ -66,13 +67,13 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+--------------------------------------------------------------------------+
-; Simulation Generated Files                                               ;
-+--------------------------------------------------------------------------+
-; Generated Files                                                          ;
-+--------------------------------------------------------------------------+
-; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/simulation/qsim//NEW.vho ;
-+--------------------------------------------------------------------------+
++-----------------------------------------------------------------------------+
+; Simulation Generated Files                                                  ;
++-----------------------------------------------------------------------------+
+; Generated Files                                                             ;
++-----------------------------------------------------------------------------+
+; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/simulation/modelsim/NEW.vho ;
++-----------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -81,27 +82,14 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
-    Info: Your use of Intel Corporation's design tools, logic functions 
-    Info: and other software and tools, and its AMPP partner logic 
-    Info: functions, and any output files from any of the foregoing 
-    Info: (including device programming or simulation files), and any 
-    Info: associated documentation or information are expressly subject 
-    Info: to the terms and conditions of the Intel Program License 
-    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
-    Info: the Intel MegaCore Function License Agreement, or other 
-    Info: applicable license agreement, including, without limitation, 
-    Info: that your use is for the sole purpose of programming logic 
-    Info: devices manufactured by Intel and sold by Intel or its 
-    Info: authorized distributors.  Please refer to the applicable 
-    Info: agreement for further details.
-    Info: Processing started: Wed Jan 24 20:43:24 2018
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/simulation/qsim/ SANDBOX -c NEW
-Info (204019): Generated file NEW.vho in folder "C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/simulation/qsim//" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 652 megabytes
-    Info: Processing ended: Wed Jan 24 20:43:26 2018
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Processing started: Sun Jan 28 21:49:29 2018
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off SANDBOX -c NEW
+Warning (10905): Generated the EDA functional simulation netlist because it is the only supported netlist type for this device.
+Info (204019): Generated file NEW.vho in folder "C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/simulation/modelsim/" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 678 megabytes
+    Info: Processing ended: Sun Jan 28 21:49:33 2018
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 

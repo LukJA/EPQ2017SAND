@@ -72,6 +72,11 @@ set_location_assignment PIN_A7 -to ALUO[6]
 set_location_assignment PIN_C6 -to ALUO[4]
 set_location_assignment PIN_B7 -to ALUO[3]
 set_location_assignment PIN_D6 -to ALUO[2]
+set_global_assignment -name SOURCE_FILE PMemory.cmp
+set_global_assignment -name BDF_FILE conceptP.bdf
+set_global_assignment -name VHDL_FILE vector_concats.vhd
+set_global_assignment -name VHDL_FILE PAL.vhd
+set_global_assignment -name VHDL_FILE expansionIF.vhd
 set_global_assignment -name SDC_FILE SANDBOX.out.sdc
 set_global_assignment -name BDF_FILE SANDBOX.bdf
 set_global_assignment -name VHDL_FILE REG.vhd

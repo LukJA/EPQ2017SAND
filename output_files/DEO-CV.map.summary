@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Mon Jan 15 21:57:40 2018
+Analysis & Synthesis Status : Successful - Sun Jan 28 21:53:14 2018
 Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : DEO-CV
 Top-level Entity Name : SANDBOX
 Family : Cyclone IV E
-Total logic elements : 1,602
-    Total combinational functions : 1,602
-    Dedicated logic registers : 520
-Total registers : 520
-Total pins : 17
+Total logic elements : 1,735
+    Total combinational functions : 1,695
+    Dedicated logic registers : 589
+Total registers : 589
+Total pins : 74
 Total virtual pins : 0
-Total memory bits : 4,096
+Total memory bits : 65,536
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0
