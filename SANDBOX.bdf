@@ -816,41 +816,6 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1144 536 1344 616)
-	(text "vector_or" (rect 5 0 52 12)(font "Arial" ))
-	(text "inst13" (rect 8 64 36 81)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "inOne[n-1..0]" (rect 0 0 63 12)(font "Arial" ))
-		(text "inOne[n-1..0]" (rect 21 27 84 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "inTwo[n-1..0]" (rect 0 0 62 12)(font "Arial" ))
-		(text "inTwo[n-1..0]" (rect 21 43 83 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 200 32)
-		(output)
-		(text "output[n-1..0]" (rect 0 0 66 12)(font "Arial" ))
-		(text "output[n-1..0]" (rect 124 27 190 39)(font "Arial" ))
-		(line (pt 200 32)(pt 184 32)(line_width 3))
-	)
-	(parameter
-		"n"
-		"8"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(rectangle (rect 16 16 184 64))
-	)
-	(annotation_block (parameter)(rect 1160 608 1329 646))
-)
-(symbol
 	(rect 240 496 304 544)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst12" (rect 3 37 31 54)(font "Intel Clear" ))
@@ -1534,26 +1499,6 @@ agreement for further details.
 	(pt 1416 784)
 )
 (connector
-	(pt 1368 512)
-	(pt 1368 568)
-	(bus)
-)
-(connector
-	(pt 1368 568)
-	(pt 1344 568)
-	(bus)
-)
-(connector
-	(pt 1144 584)
-	(pt 1144 664)
-	(bus)
-)
-(connector
-	(pt 1464 664)
-	(pt 1144 664)
-	(bus)
-)
-(connector
 	(pt 1656 616)
 	(pt 1680 616)
 	(bus)
@@ -1648,6 +1593,16 @@ agreement for further details.
 (connector
 	(pt -208 512)
 	(pt -112 512)
+)
+(connector
+	(pt 1368 664)
+	(pt 1464 664)
+	(bus)
+)
+(connector
+	(pt 1368 512)
+	(pt 1368 664)
+	(bus)
 )
 (junction (pt 136 336))
 (junction (pt 848 312))
