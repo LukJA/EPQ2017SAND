@@ -1,18 +1,14 @@
 |SANDBOX
 memclock <= expansionIF:inst8.clkO
-ClockIn => inst7.IN1
-ClockIn => inst6.IN1
-ClockIn => inst3.IN0
-ClockIn => PCV1S1:inst.CLK
-ClockIn => expansionIF:inst8.Clock
-DataIN[0] => vector_or:inst13.inOne[0]
-DataIN[1] => vector_or:inst13.inOne[1]
-DataIN[2] => vector_or:inst13.inOne[2]
-DataIN[3] => vector_or:inst13.inOne[3]
-DataIN[4] => vector_or:inst13.inOne[4]
-DataIN[5] => vector_or:inst13.inOne[5]
-DataIN[6] => vector_or:inst13.inOne[6]
-DataIN[7] => vector_or:inst13.inOne[7]
+ClockIn => pllciv:inst11.inclk0
+Data[0] <> vector_or:inst15.output[0]
+Data[1] <> vector_or:inst15.output[1]
+Data[2] <> vector_or:inst15.output[2]
+Data[3] <> vector_or:inst15.output[3]
+Data[4] <> vector_or:inst15.output[4]
+Data[5] <> vector_or:inst15.output[5]
+Data[6] <> vector_or:inst15.output[6]
+Data[7] <> vector_or:inst15.output[7]
 PORT1IN[0] => PAL:inst10.strIN1[0]
 PORT1IN[1] => PAL:inst10.strIN1[1]
 PORT1IN[2] => PAL:inst10.strIN1[2]
@@ -53,14 +49,6 @@ ALUO[4] <= ALUV1S1_unsigned:inst1.output[4]
 ALUO[5] <= ALUV1S1_unsigned:inst1.output[5]
 ALUO[6] <= ALUV1S1_unsigned:inst1.output[6]
 ALUO[7] <= ALUV1S1_unsigned:inst1.output[7]
-DataOUT[0] <= expansionIF:inst8.streamOut[0]
-DataOUT[1] <= expansionIF:inst8.streamOut[1]
-DataOUT[2] <= expansionIF:inst8.streamOut[2]
-DataOUT[3] <= expansionIF:inst8.streamOut[3]
-DataOUT[4] <= expansionIF:inst8.streamOut[4]
-DataOUT[5] <= expansionIF:inst8.streamOut[5]
-DataOUT[6] <= expansionIF:inst8.streamOut[6]
-DataOUT[7] <= expansionIF:inst8.streamOut[7]
 PORT1OUT[0] <= PAL:inst10.strOUT1[0]
 PORT1OUT[1] <= PAL:inst10.strOUT1[1]
 PORT1OUT[2] <= PAL:inst10.strOUT1[2]
@@ -10975,6 +10963,83 @@ outputs[6] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
 outputs[7] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|SANDBOX|pllciv:inst11
+inclk0 => altpll:altpll_component.inclk[0]
+c0 <= altpll:altpll_component.clk[0]
+locked <= altpll:altpll_component.locked
+
+
+|SANDBOX|pllciv:inst11|altpll:altpll_component
+inclk[0] => pllciv_altpll:auto_generated.inclk[0]
+inclk[1] => pllciv_altpll:auto_generated.inclk[1]
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => ~NO_FANOUT~
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= clk[1].DB_MAX_OUTPUT_PORT_TYPE
+clk[2] <= clk[2].DB_MAX_OUTPUT_PORT_TYPE
+clk[3] <= clk[3].DB_MAX_OUTPUT_PORT_TYPE
+clk[4] <= clk[4].DB_MAX_OUTPUT_PORT_TYPE
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= pllciv_altpll:auto_generated.locked
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= <GND>
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|SANDBOX|pllciv:inst11|altpll:altpll_component|pllciv_altpll:auto_generated
+clk[0] <= pll1.CLK
+clk[1] <= pll1.CLK1
+clk[2] <= pll1.CLK2
+clk[3] <= pll1.CLK3
+clk[4] <= pll1.CLK4
+inclk[0] => pll1.CLK
+inclk[1] => pll1.CLK1
+locked <= pll1.LOCKED
+
+
 |SANDBOX|PMemory:inst2
 address[0] => altsyncram:altsyncram_component.address_a[0]
 address[1] => altsyncram:altsyncram_component.address_a[1]
@@ -12721,5 +12786,32 @@ outputs[4] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
 outputs[5] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
 outputs[6] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
 outputs[7] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SANDBOX|vector_or:inst15
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output.DB_MAX_OUTPUT_PORT_TYPE
+inOne[0] => output.IN0
+inOne[1] => output.IN0
+inOne[2] => output.IN0
+inOne[3] => output.IN0
+inOne[4] => output.IN0
+inOne[5] => output.IN0
+inOne[6] => output.IN0
+inOne[7] => output.IN0
+inTwo[0] => output.IN1
+inTwo[1] => output.IN1
+inTwo[2] => output.IN1
+inTwo[3] => output.IN1
+inTwo[4] => output.IN1
+inTwo[5] => output.IN1
+inTwo[6] => output.IN1
+inTwo[7] => output.IN1
 
 
