@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="plltoto_sim/plltoto.vho" type="VHDL" />
+ <topLevel name="plltoto" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

@@ -1,5 +1,5 @@
 Flow report for NEW
-Sun Jan 28 21:49:33 2018
+Mon Jan 29 15:59:15 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,16 +41,16 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Jan 28 21:49:33 2018       ;
+; Flow Status                     ; Successful - Mon Jan 29 15:59:15 2018       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; NEW                                         ;
 ; Top-level Entity Name           ; SANDBOX                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1,073 / 18,480 ( 6 % )                      ;
-; Total registers                 ; 603                                         ;
-; Total pins                      ; 74 / 224 ( 33 % )                           ;
+; Logic utilization (in ALMs)     ; 1,074 / 18,480 ( 6 % )                      ;
+; Total registers                 ; 610                                         ;
+; Total pins                      ; 66 / 224 ( 29 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 65,536 / 3,153,920 ( 2 % )                  ;
 ; Total DSP Blocks                ; 0 / 66 ( 0 % )                              ;
@@ -58,7 +58,7 @@ agreement for further details.
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
 ; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0 / 4 ( 0 % )                               ;
+; Total PLLs                      ; 1 / 4 ( 25 % )                              ;
 ; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/28/2018 21:47:12 ;
+; Start date & time ; 01/29/2018 15:56:44 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; NEW                 ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 174508025295553.151717603212252        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 174508025295553.151724140410556        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -88,6 +88,8 @@ agreement for further details.
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
 ; MISC_FILE                            ; PMemory.bsf                            ; --            ; --          ; --             ;
 ; MISC_FILE                            ; PMemory.cmp                            ; --            ; --          ; --             ;
+; MISC_FILE                            ; plltoto.cmp                            ; --            ; --          ; --             ;
+; MISC_FILE                            ; plltoto_sim/plltoto.vho                ; --            ; --          ; --             ;
 ; MUX_RESTRUCTURE                      ; Off                                    ; Auto          ; --          ; --             ;
 ; NUM_PARALLEL_PROCESSORS              ; 4                                      ; --            ; --          ; --             ;
 ; OPTIMIZATION_MODE                    ; Aggressive Performance                 ; Balanced      ; --          ; --             ;
@@ -101,6 +103,8 @@ agreement for further details.
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
 ; ROUTER_TIMING_OPTIMIZATION_LEVEL     ; MAXIMUM                                ; Normal        ; --          ; --             ;
+; SPD_FILE                             ; plltoto.spd                            ; --            ; --          ; --             ;
+; SYNTHESIS_ONLY_QIP                   ; On                                     ; --            ; --          ; --             ;
 ; TOP_LEVEL_ENTITY                     ; SANDBOX                                ; NEW           ; --          ; --             ;
 ; VHDL_INPUT_VERSION                   ; VHDL_2008                              ; VHDL_1993     ; --          ; --             ;
 ; VHDL_SHOW_LMF_MAPPING_MESSAGES       ; Off                                    ; --            ; --          ; --             ;
@@ -112,12 +116,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:19     ; 1.0                     ; 817 MB              ; 00:00:30                           ;
-; Fitter                    ; 00:01:27     ; 1.3                     ; 2344 MB             ; 00:02:44                           ;
-; Assembler                 ; 00:00:08     ; 1.0                     ; 745 MB              ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:16     ; 1.5                     ; 1039 MB             ; 00:00:22                           ;
-; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 678 MB              ; 00:00:03                           ;
-; Total                     ; 00:02:14     ; --                      ; --                  ; 00:03:45                           ;
+; Analysis & Synthesis      ; 00:00:20     ; 1.0                     ; 820 MB              ; 00:00:31                           ;
+; Fitter                    ; 00:01:34     ; 1.3                     ; 2387 MB             ; 00:02:45                           ;
+; Assembler                 ; 00:00:08     ; 1.0                     ; 748 MB              ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:20     ; 1.4                     ; 1063 MB             ; 00:00:25                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 732 MB              ; 00:00:04                           ;
+; Total                     ; 00:02:25     ; --                      ; --                  ; 00:03:51                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for NEW
-Sun Jan 28 21:49:33 2018
+Mon Jan 29 15:59:15 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Jan 28 21:49:33 2018 ;
+; EDA Netlist Writer Status ; Successful - Mon Jan 29 15:59:15 2018 ;
 ; Revision Name             ; NEW                                   ;
 ; Top-level Entity Name     ; SANDBOX                               ;
 ; Family                    ; Cyclone V                             ;
@@ -82,13 +82,13 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Jan 28 21:49:29 2018
+    Info: Processing started: Mon Jan 29 15:59:12 2018
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off SANDBOX -c NEW
 Warning (10905): Generated the EDA functional simulation netlist because it is the only supported netlist type for this device.
 Info (204019): Generated file NEW.vho in folder "C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 678 megabytes
-    Info: Processing ended: Sun Jan 28 21:49:33 2018
+    Info: Peak virtual memory: 732 megabytes
+    Info: Processing ended: Mon Jan 29 15:59:16 2018
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 

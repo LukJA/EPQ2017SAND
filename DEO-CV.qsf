@@ -58,20 +58,71 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
 set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
-set_location_assignment PIN_A15 -to PC[7]
-set_location_assignment PIN_A13 -to PC[6]
-set_location_assignment PIN_B13 -to PC[5]
-set_location_assignment PIN_A11 -to PC[4]
-set_location_assignment PIN_D1 -to PC[3]
-set_location_assignment PIN_F3 -to PC[2]
-set_location_assignment PIN_L3 -to PC[0]
 set_location_assignment PIN_R8 -to ClockIn
-set_location_assignment PIN_C8 -to ALUO[5]
-set_location_assignment PIN_E6 -to ALUO[7]
-set_location_assignment PIN_A7 -to ALUO[6]
-set_location_assignment PIN_C6 -to ALUO[4]
-set_location_assignment PIN_B7 -to ALUO[3]
-set_location_assignment PIN_D6 -to ALUO[2]
+set_location_assignment PIN_J15 -to PORT1IN[0]
+set_location_assignment PIN_E1 -to PORT1IN[1]
+set_location_assignment PIN_A15 -to PORT1OUT[0]
+set_location_assignment PIN_A13 -to PORT1OUT[1]
+set_location_assignment PIN_B13 -to PORT1OUT[2]
+set_location_assignment PIN_A11 -to PORT1OUT[3]
+set_location_assignment PIN_D1 -to PORT1OUT[4]
+set_location_assignment PIN_F3 -to PORT1OUT[5]
+set_location_assignment PIN_B1 -to PORT1OUT[6]
+set_location_assignment PIN_L3 -to PORT1OUT[7]
+set_location_assignment PIN_M1 -to PORT1IN[2]
+set_location_assignment PIN_T8 -to PORT1IN[3]
+set_location_assignment PIN_B9 -to PORT1IN[4]
+set_location_assignment PIN_M15 -to PORT1IN[5]
+set_location_assignment PIN_P2 -to Address[0]
+set_location_assignment PIN_N5 -to Address[1]
+set_location_assignment PIN_N6 -to Address[2]
+set_location_assignment PIN_M8 -to Address[3]
+set_location_assignment PIN_P8 -to Address[4]
+set_location_assignment PIN_T7 -to Address[5]
+set_location_assignment PIN_N8 -to Address[6]
+set_location_assignment PIN_T6 -to Address[7]
+set_location_assignment PIN_R1 -to Address[8]
+set_location_assignment PIN_P1 -to Address[9]
+set_location_assignment PIN_N2 -to Address[10]
+set_location_assignment PIN_N1 -to Address[11]
+set_location_assignment PIN_L4 -to Address[12]
+set_location_assignment PIN_M7 -to Address[13]
+set_location_assignment PIN_M6 -to Address[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Address[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to ClockIn
+set_instance_assignment -name IO_STANDARD "1.2 V" -to PORT1IN[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1IN[0]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to PORT1IN[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1IN[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1IN[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1IN[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1IN[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1IN[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to "PORT1OUT[2](n)"
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PORT1OUT[4]
+set_global_assignment -name SOURCE_FILE PLL.cmp
+set_global_assignment -name VERILOG_FILE PLL_syn.v
 set_global_assignment -name SOURCE_FILE PMemory.cmp
 set_global_assignment -name BDF_FILE conceptP.bdf
 set_global_assignment -name VHDL_FILE vector_concats.vhd
@@ -91,5 +142,5 @@ set_global_assignment -name BDF_FILE r_block.bdf
 set_global_assignment -name VHDL_FILE reg_port_control.vhd
 set_global_assignment -name VHDL_FILE global.vhd
 set_global_assignment -name VHDL_FILE InstructionDecoder.vhd
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name QIP_FILE PLL.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

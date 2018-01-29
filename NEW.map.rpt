@@ -1,5 +1,5 @@
 Analysis & Synthesis report for NEW
-Sun Jan 28 21:47:31 2018
+Mon Jan 29 15:57:04 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -93,39 +93,41 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
  85. Parameter Settings for User Entity Instance: r_block:inst4|demux:inst2
  86. Parameter Settings for User Entity Instance: r_block:inst4|demux:inst3
  87. Parameter Settings for User Entity Instance: r_block:inst4|mux:inst5
- 88. Parameter Settings for User Entity Instance: PMemory:inst2|altsyncram:altsyncram_component
- 89. Parameter Settings for User Entity Instance: PCV1S1:inst
- 90. Parameter Settings for User Entity Instance: PCV1S1:inst|DFFQ:PC_register_R
- 91. Parameter Settings for User Entity Instance: vec_concat:inst9
- 92. Parameter Settings for User Entity Instance: vector_or:inst13
- 93. Parameter Settings for User Entity Instance: PAL:inst10|demux:clockmux
- 94. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX
- 95. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX
- 96. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:2:REGX
- 97. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:3:REGX
- 98. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:4:REGX
- 99. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:5:REGX
-100. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:6:REGX
-101. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:7:REGX
-102. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:8:REGX
-103. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:9:REGX
-104. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX
-105. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX
-106. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:2:REGX
-107. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:3:REGX
-108. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:4:REGX
-109. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:5:REGX
-110. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:6:REGX
-111. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:7:REGX
-112. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:8:REGX
-113. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:9:REGX
-114. Parameter Settings for User Entity Instance: PAL:inst10|mux:outputmux
-115. altsyncram Parameter Settings by Entity Instance
-116. Port Connectivity Checks: "PAL:inst10|demux:clockmux"
-117. Port Connectivity Checks: "PCV1S1:inst|DFFQ:PC_register_R"
-118. Post-Synthesis Netlist Statistics for Top Partition
-119. Elapsed Time Per Partition
-120. Analysis & Synthesis Messages
+ 88. Parameter Settings for User Entity Instance: plltoto:inst11|plltoto_0002:plltoto_inst|altera_pll:altera_pll_i
+ 89. Parameter Settings for User Entity Instance: PMemory:inst2|altsyncram:altsyncram_component
+ 90. Parameter Settings for User Entity Instance: PCV1S1:inst
+ 91. Parameter Settings for User Entity Instance: PCV1S1:inst|DFFQ:PC_register_R
+ 92. Parameter Settings for User Entity Instance: vec_concat:inst9
+ 93. Parameter Settings for User Entity Instance: vector_or:inst13
+ 94. Parameter Settings for User Entity Instance: PAL:inst10|demux:clockmux
+ 95. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX
+ 96. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX
+ 97. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:2:REGX
+ 98. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:3:REGX
+ 99. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:4:REGX
+100. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:5:REGX
+101. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:6:REGX
+102. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:7:REGX
+103. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:8:REGX
+104. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:9:REGX
+105. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX
+106. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX
+107. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:2:REGX
+108. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:3:REGX
+109. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:4:REGX
+110. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:5:REGX
+111. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:6:REGX
+112. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:7:REGX
+113. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:8:REGX
+114. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:9:REGX
+115. Parameter Settings for User Entity Instance: PAL:inst10|mux:outputmux
+116. Parameter Settings for User Entity Instance: vector_or:inst15
+117. altsyncram Parameter Settings by Entity Instance
+118. Port Connectivity Checks: "PAL:inst10|demux:clockmux"
+119. Port Connectivity Checks: "PCV1S1:inst|DFFQ:PC_register_R"
+120. Post-Synthesis Netlist Statistics for Top Partition
+121. Elapsed Time Per Partition
+122. Analysis & Synthesis Messages
 
 
 
@@ -152,14 +154,14 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Jan 28 21:47:31 2018       ;
+; Analysis & Synthesis Status     ; Successful - Mon Jan 29 15:57:04 2018       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; NEW                                         ;
 ; Top-level Entity Name           ; SANDBOX                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 589                                         ;
-; Total pins                      ; 74                                          ;
+; Total pins                      ; 66                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 65,536                                      ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -167,7 +169,7 @@ agreement for further details.
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
 ; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
+; Total PLLs                      ; 1                                           ;
 ; Total DLLs                      ; 0                                           ;
 +---------------------------------+---------------------------------------------+
 
@@ -275,8 +277,8 @@ agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.0%      ;
-;     Processor 4            ;   0.0%      ;
+;     Processor 3            ;   0.1%      ;
+;     Processor 4            ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -301,6 +303,9 @@ agreement for further details.
 ; expansionIF.vhd                  ; yes             ; User VHDL File                     ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd              ;         ;
 ; vector_concats.vhd               ; yes             ; User VHDL File                     ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/vector_concats.vhd           ;         ;
 ; PAL.vhd                          ; yes             ; User VHDL File                     ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd                      ;         ;
+; plltoto.vhd                      ; yes             ; User Wizard-Generated File         ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto.vhd                  ; plltoto ;
+; plltoto/plltoto_0002.v           ; yes             ; User Verilog HDL File              ; C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto/plltoto_0002.v       ; plltoto ;
+; altera_pll.v                     ; yes             ; Megafunction                       ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altera_pll.v          ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                       ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                       ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
@@ -319,27 +324,30 @@ agreement for further details.
 +---------------------------------------------+------------------+
 ; Resource                                    ; Usage            ;
 +---------------------------------------------+------------------+
-; Estimate of Logic utilization (ALMs needed) ; 1146             ;
+; Estimate of Logic utilization (ALMs needed) ; 1147             ;
 ;                                             ;                  ;
-; Combinational ALUT usage for logic          ; 1283             ;
+; Combinational ALUT usage for logic          ; 1285             ;
 ;     -- 7 input functions                    ; 519              ;
 ;     -- 6 input functions                    ; 484              ;
-;     -- 5 input functions                    ; 76               ;
-;     -- 4 input functions                    ; 8                ;
-;     -- <=3 input functions                  ; 196              ;
+;     -- 5 input functions                    ; 11               ;
+;     -- 4 input functions                    ; 81               ;
+;     -- <=3 input functions                  ; 190              ;
 ;                                             ;                  ;
 ; Dedicated logic registers                   ; 589              ;
 ;                                             ;                  ;
-; I/O pins                                    ; 74               ;
+; I/O pins                                    ; 66               ;
 ; Total MLAB memory bits                      ; 0                ;
 ; Total block memory bits                     ; 65536            ;
 ;                                             ;                  ;
 ; Total DSP Blocks                            ; 0                ;
 ;                                             ;                  ;
+; Total PLLs                                  ; 1                ;
+;     -- PLLs                                 ; 1                ;
+;                                             ;                  ;
 ; Maximum fan-out node                        ; ID:inst5|Mux25~0 ;
-; Maximum fan-out                             ; 520              ;
-; Total fan-out                               ; 9024             ;
-; Average fan-out                             ; 4.43             ;
+; Maximum fan-out                             ; 521              ;
+; Total fan-out                               ; 8980             ;
+; Average fan-out                             ; 4.42             ;
 +---------------------------------------------+------------------+
 
 
@@ -348,9 +356,9 @@ agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                   ; Entity Name      ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+------------------+--------------+
-; |SANDBOX                                  ; 1283 (2)            ; 589 (0)                   ; 65536             ; 0          ; 74   ; 0            ; |SANDBOX                                                                              ; SANDBOX          ; work         ;
+; |SANDBOX                                  ; 1285 (5)            ; 589 (0)                   ; 65536             ; 0          ; 66   ; 0            ; |SANDBOX                                                                              ; SANDBOX          ; work         ;
 ;    |ALUV1S1_unsigned:inst1|               ; 44 (44)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|ALUV1S1_unsigned:inst1                                                       ; ALUV1S1_unsigned ; work         ;
-;    |ID:inst5|                             ; 138 (138)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|ID:inst5                                                                     ; ID               ; work         ;
+;    |ID:inst5|                             ; 137 (137)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|ID:inst5                                                                     ; ID               ; work         ;
 ;    |PAL:inst10|                           ; 3 (0)               ; 32 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|PAL:inst10                                                                   ; PAL              ; work         ;
 ;       |DFF_Rising:\GEN_REG_sIn:0:REGX|    ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX                                    ; DFF_Rising       ; work         ;
 ;       |DFF_Rising:\GEN_REG_sIn:1:REGX|    ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX                                    ; DFF_Rising       ; work         ;
@@ -364,6 +372,9 @@ agreement for further details.
 ;          |altsyncram_nb24:auto_generated| ; 0 (0)               ; 0 (0)                     ; 65536             ; 0          ; 0    ; 0            ; |SANDBOX|PMemory:inst2|altsyncram:altsyncram_component|altsyncram_nb24:auto_generated ; altsyncram_nb24  ; work         ;
 ;    |expansionIF:inst8|                    ; 44 (44)             ; 33 (17)                   ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|expansionIF:inst8                                                            ; expansionIF      ; work         ;
 ;       |DFF_Rising:addressStorage|         ; 0 (0)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|expansionIF:inst8|DFF_Rising:addressStorage                                  ; DFF_Rising       ; work         ;
+;    |plltoto:inst11|                       ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|plltoto:inst11                                                               ; plltoto          ; plltoto      ;
+;       |plltoto_0002:plltoto_inst|         ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|plltoto:inst11|plltoto_0002:plltoto_inst                                     ; plltoto_0002     ; plltoto      ;
+;          |altera_pll:altera_pll_i|        ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|plltoto:inst11|plltoto_0002:plltoto_inst|altera_pll:altera_pll_i             ; altera_pll       ; work         ;
 ;    |r_block:inst4|                        ; 1040 (0)            ; 512 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|r_block:inst4                                                                ; r_block          ; work         ;
 ;       |R_P_control:inst1|                 ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|r_block:inst4|R_P_control:inst1                                              ; R_P_control      ; work         ;
 ;       |array_or:inst6|                    ; 512 (512)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SANDBOX|r_block:inst4|array_or:inst6                                                 ; array_or         ; work         ;
@@ -447,13 +458,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                    ;
-+--------+--------------+---------+--------------+--------------+------------------------+-----------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance        ; IP Include File ;
-+--------+--------------+---------+--------------+--------------+------------------------+-----------------+
-; Altera ; ROM: 1-PORT  ; 17.0    ; N/A          ; N/A          ; |SANDBOX|PMemory:inst2 ; PMemory.vhd     ;
-+--------+--------------+---------+--------------+--------------+------------------------+-----------------+
++-----------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                     ;
++--------+--------------+---------+--------------+--------------+-------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance         ; IP Include File ;
++--------+--------------+---------+--------------+--------------+-------------------------+-----------------+
+; Altera ; ROM: 1-PORT  ; 17.0    ; N/A          ; N/A          ; |SANDBOX|PMemory:inst2  ; PMemory.vhd     ;
+; Altera ; altera_pll   ; 17.0    ; N/A          ; N/A          ; |SANDBOX|plltoto:inst11 ; plltoto.vhd     ;
++--------+--------------+---------+--------------+--------------+-------------------------+-----------------+
 
 
 +----------------------------------------------------------------------------------------------------+
@@ -1285,6 +1297,253 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++---------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: plltoto:inst11|plltoto_0002:plltoto_inst|altera_pll:altera_pll_i ;
++--------------------------------------+------------------------+-----------------------------------------------+
+; Parameter Name                       ; Value                  ; Type                                          ;
++--------------------------------------+------------------------+-----------------------------------------------+
+; reference_clock_frequency            ; 50.0 MHz               ; String                                        ;
+; fractional_vco_multiplier            ; false                  ; String                                        ;
+; pll_type                             ; General                ; String                                        ;
+; pll_subtype                          ; General                ; String                                        ;
+; number_of_clocks                     ; 1                      ; Signed Integer                                ;
+; operation_mode                       ; direct                 ; String                                        ;
+; deserialization_factor               ; 4                      ; Signed Integer                                ;
+; data_rate                            ; 0                      ; Signed Integer                                ;
+; sim_additional_refclk_cycles_to_lock ; 0                      ; Signed Integer                                ;
+; output_clock_frequency0              ; 10.000000 MHz          ; String                                        ;
+; phase_shift0                         ; 0 ps                   ; String                                        ;
+; duty_cycle0                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency1              ; 0 MHz                  ; String                                        ;
+; phase_shift1                         ; 0 ps                   ; String                                        ;
+; duty_cycle1                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency2              ; 0 MHz                  ; String                                        ;
+; phase_shift2                         ; 0 ps                   ; String                                        ;
+; duty_cycle2                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency3              ; 0 MHz                  ; String                                        ;
+; phase_shift3                         ; 0 ps                   ; String                                        ;
+; duty_cycle3                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency4              ; 0 MHz                  ; String                                        ;
+; phase_shift4                         ; 0 ps                   ; String                                        ;
+; duty_cycle4                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency5              ; 0 MHz                  ; String                                        ;
+; phase_shift5                         ; 0 ps                   ; String                                        ;
+; duty_cycle5                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency6              ; 0 MHz                  ; String                                        ;
+; phase_shift6                         ; 0 ps                   ; String                                        ;
+; duty_cycle6                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency7              ; 0 MHz                  ; String                                        ;
+; phase_shift7                         ; 0 ps                   ; String                                        ;
+; duty_cycle7                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency8              ; 0 MHz                  ; String                                        ;
+; phase_shift8                         ; 0 ps                   ; String                                        ;
+; duty_cycle8                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency9              ; 0 MHz                  ; String                                        ;
+; phase_shift9                         ; 0 ps                   ; String                                        ;
+; duty_cycle9                          ; 50                     ; Signed Integer                                ;
+; output_clock_frequency10             ; 0 MHz                  ; String                                        ;
+; phase_shift10                        ; 0 ps                   ; String                                        ;
+; duty_cycle10                         ; 50                     ; Signed Integer                                ;
+; output_clock_frequency11             ; 0 MHz                  ; String                                        ;
+; phase_shift11                        ; 0 ps                   ; String                                        ;
+; duty_cycle11                         ; 50                     ; Signed Integer                                ;
+; output_clock_frequency12             ; 0 MHz                  ; String                                        ;
+; phase_shift12                        ; 0 ps                   ; String                                        ;
+; duty_cycle12                         ; 50                     ; Signed Integer                                ;
+; output_clock_frequency13             ; 0 MHz                  ; String                                        ;
+; phase_shift13                        ; 0 ps                   ; String                                        ;
+; duty_cycle13                         ; 50                     ; Signed Integer                                ;
+; output_clock_frequency14             ; 0 MHz                  ; String                                        ;
+; phase_shift14                        ; 0 ps                   ; String                                        ;
+; duty_cycle14                         ; 50                     ; Signed Integer                                ;
+; output_clock_frequency15             ; 0 MHz                  ; String                                        ;
+; phase_shift15                        ; 0 ps                   ; String                                        ;
+; duty_cycle15                         ; 50                     ; Signed Integer                                ;
+; output_clock_frequency16             ; 0 MHz                  ; String                                        ;
+; phase_shift16                        ; 0 ps                   ; String                                        ;
+; duty_cycle16                         ; 50                     ; Signed Integer                                ;
+; output_clock_frequency17             ; 0 MHz                  ; String                                        ;
+; phase_shift17                        ; 0 ps                   ; String                                        ;
+; duty_cycle17                         ; 50                     ; Signed Integer                                ;
+; clock_name_0                         ;                        ; String                                        ;
+; clock_name_1                         ;                        ; String                                        ;
+; clock_name_2                         ;                        ; String                                        ;
+; clock_name_3                         ;                        ; String                                        ;
+; clock_name_4                         ;                        ; String                                        ;
+; clock_name_5                         ;                        ; String                                        ;
+; clock_name_6                         ;                        ; String                                        ;
+; clock_name_7                         ;                        ; String                                        ;
+; clock_name_8                         ;                        ; String                                        ;
+; clock_name_global_0                  ; false                  ; String                                        ;
+; clock_name_global_1                  ; false                  ; String                                        ;
+; clock_name_global_2                  ; false                  ; String                                        ;
+; clock_name_global_3                  ; false                  ; String                                        ;
+; clock_name_global_4                  ; false                  ; String                                        ;
+; clock_name_global_5                  ; false                  ; String                                        ;
+; clock_name_global_6                  ; false                  ; String                                        ;
+; clock_name_global_7                  ; false                  ; String                                        ;
+; clock_name_global_8                  ; false                  ; String                                        ;
+; m_cnt_hi_div                         ; 1                      ; Signed Integer                                ;
+; m_cnt_lo_div                         ; 1                      ; Signed Integer                                ;
+; m_cnt_bypass_en                      ; false                  ; String                                        ;
+; m_cnt_odd_div_duty_en                ; false                  ; String                                        ;
+; n_cnt_hi_div                         ; 1                      ; Signed Integer                                ;
+; n_cnt_lo_div                         ; 1                      ; Signed Integer                                ;
+; n_cnt_bypass_en                      ; false                  ; String                                        ;
+; n_cnt_odd_div_duty_en                ; false                  ; String                                        ;
+; c_cnt_hi_div0                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div0                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en0                     ; false                  ; String                                        ;
+; c_cnt_in_src0                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en0               ; false                  ; String                                        ;
+; c_cnt_prst0                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst0                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div1                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div1                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en1                     ; false                  ; String                                        ;
+; c_cnt_in_src1                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en1               ; false                  ; String                                        ;
+; c_cnt_prst1                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst1                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div2                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div2                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en2                     ; false                  ; String                                        ;
+; c_cnt_in_src2                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en2               ; false                  ; String                                        ;
+; c_cnt_prst2                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst2                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div3                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div3                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en3                     ; false                  ; String                                        ;
+; c_cnt_in_src3                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en3               ; false                  ; String                                        ;
+; c_cnt_prst3                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst3                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div4                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div4                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en4                     ; false                  ; String                                        ;
+; c_cnt_in_src4                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en4               ; false                  ; String                                        ;
+; c_cnt_prst4                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst4                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div5                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div5                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en5                     ; false                  ; String                                        ;
+; c_cnt_in_src5                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en5               ; false                  ; String                                        ;
+; c_cnt_prst5                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst5                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div6                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div6                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en6                     ; false                  ; String                                        ;
+; c_cnt_in_src6                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en6               ; false                  ; String                                        ;
+; c_cnt_prst6                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst6                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div7                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div7                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en7                     ; false                  ; String                                        ;
+; c_cnt_in_src7                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en7               ; false                  ; String                                        ;
+; c_cnt_prst7                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst7                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div8                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div8                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en8                     ; false                  ; String                                        ;
+; c_cnt_in_src8                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en8               ; false                  ; String                                        ;
+; c_cnt_prst8                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst8                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div9                        ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div9                        ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en9                     ; false                  ; String                                        ;
+; c_cnt_in_src9                        ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en9               ; false                  ; String                                        ;
+; c_cnt_prst9                          ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst9                   ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div10                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div10                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en10                    ; false                  ; String                                        ;
+; c_cnt_in_src10                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en10              ; false                  ; String                                        ;
+; c_cnt_prst10                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst10                  ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div11                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div11                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en11                    ; false                  ; String                                        ;
+; c_cnt_in_src11                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en11              ; false                  ; String                                        ;
+; c_cnt_prst11                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst11                  ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div12                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div12                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en12                    ; false                  ; String                                        ;
+; c_cnt_in_src12                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en12              ; false                  ; String                                        ;
+; c_cnt_prst12                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst12                  ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div13                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div13                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en13                    ; false                  ; String                                        ;
+; c_cnt_in_src13                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en13              ; false                  ; String                                        ;
+; c_cnt_prst13                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst13                  ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div14                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div14                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en14                    ; false                  ; String                                        ;
+; c_cnt_in_src14                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en14              ; false                  ; String                                        ;
+; c_cnt_prst14                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst14                  ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div15                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div15                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en15                    ; false                  ; String                                        ;
+; c_cnt_in_src15                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en15              ; false                  ; String                                        ;
+; c_cnt_prst15                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst15                  ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div16                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div16                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en16                    ; false                  ; String                                        ;
+; c_cnt_in_src16                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en16              ; false                  ; String                                        ;
+; c_cnt_prst16                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst16                  ; 0                      ; Signed Integer                                ;
+; c_cnt_hi_div17                       ; 1                      ; Signed Integer                                ;
+; c_cnt_lo_div17                       ; 1                      ; Signed Integer                                ;
+; c_cnt_bypass_en17                    ; false                  ; String                                        ;
+; c_cnt_in_src17                       ; ph_mux_clk             ; String                                        ;
+; c_cnt_odd_div_duty_en17              ; false                  ; String                                        ;
+; c_cnt_prst17                         ; 1                      ; Signed Integer                                ;
+; c_cnt_ph_mux_prst17                  ; 0                      ; Signed Integer                                ;
+; pll_vco_div                          ; 1                      ; Signed Integer                                ;
+; pll_slf_rst                          ; false                  ; String                                        ;
+; pll_bw_sel                           ; low                    ; String                                        ;
+; pll_output_clk_frequency             ; 0 MHz                  ; String                                        ;
+; pll_cp_current                       ; 0                      ; Signed Integer                                ;
+; pll_bwctrl                           ; 0                      ; Signed Integer                                ;
+; pll_fractional_division              ; 1                      ; Signed Integer                                ;
+; pll_fractional_cout                  ; 24                     ; Signed Integer                                ;
+; pll_dsm_out_sel                      ; 1st_order              ; String                                        ;
+; mimic_fbclk_type                     ; gclk                   ; String                                        ;
+; pll_fbclk_mux_1                      ; glb                    ; String                                        ;
+; pll_fbclk_mux_2                      ; fb_1                   ; String                                        ;
+; pll_m_cnt_in_src                     ; ph_mux_clk             ; String                                        ;
+; pll_vcoph_div                        ; 1                      ; Signed Integer                                ;
+; refclk1_frequency                    ; 0 MHz                  ; String                                        ;
+; pll_clkin_0_src                      ; clk_0                  ; String                                        ;
+; pll_clkin_1_src                      ; clk_0                  ; String                                        ;
+; pll_clk_loss_sw_en                   ; false                  ; String                                        ;
+; pll_auto_clk_sw_en                   ; false                  ; String                                        ;
+; pll_manu_clk_sw_en                   ; false                  ; String                                        ;
+; pll_clk_sw_dly                       ; 0                      ; Signed Integer                                ;
+; pll_extclk_0_cnt_src                 ; pll_extclk_cnt_src_vss ; String                                        ;
+; pll_extclk_1_cnt_src                 ; pll_extclk_cnt_src_vss ; String                                        ;
++--------------------------------------+------------------------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: PMemory:inst2|altsyncram:altsyncram_component ;
 +------------------------------------+----------------------+--------------------------------+
@@ -1612,6 +1871,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: vector_or:inst15 ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; n              ; 8     ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-------------------------------------------------------------------------------------------+
 ; altsyncram Parameter Settings by Entity Instance                                          ;
 +-------------------------------------------+-----------------------------------------------+
@@ -1658,25 +1927,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; arriav_ff             ; 589                         ;
 ;     SLD               ; 28                          ;
 ;     plain             ; 561                         ;
-; arriav_lcell_comb     ; 1283                        ;
+; arriav_io_obuf        ; 8                           ;
+; arriav_lcell_comb     ; 1285                        ;
 ;     arith             ; 44                          ;
 ;         1 data inputs ; 36                          ;
 ;         2 data inputs ; 8                           ;
 ;     extend            ; 519                         ;
 ;         7 data inputs ; 519                         ;
-;     normal            ; 712                         ;
-;         2 data inputs ; 30                          ;
+;     normal            ; 714                         ;
+;         2 data inputs ; 24                          ;
 ;         3 data inputs ; 114                         ;
-;         4 data inputs ; 8                           ;
-;         5 data inputs ; 76                          ;
+;         4 data inputs ; 81                          ;
+;         5 data inputs ; 11                          ;
 ;         6 data inputs ; 484                         ;
 ;     shared            ; 8                           ;
 ;         2 data inputs ; 8                           ;
-; boundary_port         ; 74                          ;
+; boundary_port         ; 66                          ;
+; generic_pll           ; 1                           ;
 ; stratixv_ram_block    ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 11.70                       ;
-; Average LUT depth     ; 8.62                        ;
+; Average LUT depth     ; 8.60                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1695,7 +1966,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Jan 28 21:47:12 2018
+    Info: Processing started: Mon Jan 29 15:56:43 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SANDBOX -c NEW
 Info (16303): Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
@@ -1757,6 +2028,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file concept
 Info (12021): Found 2 design units, including 1 entities, in source file pal.vhd
     Info (12022): Found design unit 1: PAL-versionone File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 22
     Info (12023): Found entity 1: PAL File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file plltoto.vhd
+    Info (12022): Found design unit 1: plltoto-rtl File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto.vhd Line: 20
+    Info (12023): Found entity 1: plltoto File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto.vhd Line: 11
+Info (12021): Found 1 design units, including 1 entities, in source file plltoto/plltoto_0002.v
+    Info (12023): Found entity 1: plltoto_0002 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto/plltoto_0002.v Line: 2
 Info (12127): Elaborating entity "SANDBOX" for the top level hierarchy
 Warning (275083): Bus "OUT2[7..0]" found using same base name as "OUT", which might lead to a name conflict.
 Warning (275080): Converted elements in bus name "OUT" using legacy naming rules. Make any assignments on the new names, not on the original names.
@@ -1813,6 +2089,72 @@ Info (12128): Elaborating entity "DFF_Rising" for hierarchy "r_block:inst4|regis
 Info (12128): Elaborating entity "R_P_control" for hierarchy "r_block:inst4|R_P_control:inst1"
 Info (12128): Elaborating entity "array_or" for hierarchy "r_block:inst4|array_or:inst6"
 Info (12128): Elaborating entity "demux" for hierarchy "r_block:inst4|demux:inst2"
+Info (12128): Elaborating entity "plltoto" for hierarchy "plltoto:inst11"
+Info (12128): Elaborating entity "plltoto_0002" for hierarchy "plltoto:inst11|plltoto_0002:plltoto_inst" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto.vhd Line: 32
+Info (12128): Elaborating entity "altera_pll" for hierarchy "plltoto:inst11|plltoto_0002:plltoto_inst|altera_pll:altera_pll_i" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto/plltoto_0002.v Line: 85
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Info (12130): Elaborated megafunction instantiation "plltoto:inst11|plltoto_0002:plltoto_inst|altera_pll:altera_pll_i" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto/plltoto_0002.v Line: 85
+Info (12133): Instantiated megafunction "plltoto:inst11|plltoto_0002:plltoto_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/plltoto/plltoto_0002.v Line: 85
+    Info (12134): Parameter "fractional_vco_multiplier" = "false"
+    Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
+    Info (12134): Parameter "operation_mode" = "direct"
+    Info (12134): Parameter "number_of_clocks" = "1"
+    Info (12134): Parameter "output_clock_frequency0" = "10.000000 MHz"
+    Info (12134): Parameter "phase_shift0" = "0 ps"
+    Info (12134): Parameter "duty_cycle0" = "50"
+    Info (12134): Parameter "output_clock_frequency1" = "0 MHz"
+    Info (12134): Parameter "phase_shift1" = "0 ps"
+    Info (12134): Parameter "duty_cycle1" = "50"
+    Info (12134): Parameter "output_clock_frequency2" = "0 MHz"
+    Info (12134): Parameter "phase_shift2" = "0 ps"
+    Info (12134): Parameter "duty_cycle2" = "50"
+    Info (12134): Parameter "output_clock_frequency3" = "0 MHz"
+    Info (12134): Parameter "phase_shift3" = "0 ps"
+    Info (12134): Parameter "duty_cycle3" = "50"
+    Info (12134): Parameter "output_clock_frequency4" = "0 MHz"
+    Info (12134): Parameter "phase_shift4" = "0 ps"
+    Info (12134): Parameter "duty_cycle4" = "50"
+    Info (12134): Parameter "output_clock_frequency5" = "0 MHz"
+    Info (12134): Parameter "phase_shift5" = "0 ps"
+    Info (12134): Parameter "duty_cycle5" = "50"
+    Info (12134): Parameter "output_clock_frequency6" = "0 MHz"
+    Info (12134): Parameter "phase_shift6" = "0 ps"
+    Info (12134): Parameter "duty_cycle6" = "50"
+    Info (12134): Parameter "output_clock_frequency7" = "0 MHz"
+    Info (12134): Parameter "phase_shift7" = "0 ps"
+    Info (12134): Parameter "duty_cycle7" = "50"
+    Info (12134): Parameter "output_clock_frequency8" = "0 MHz"
+    Info (12134): Parameter "phase_shift8" = "0 ps"
+    Info (12134): Parameter "duty_cycle8" = "50"
+    Info (12134): Parameter "output_clock_frequency9" = "0 MHz"
+    Info (12134): Parameter "phase_shift9" = "0 ps"
+    Info (12134): Parameter "duty_cycle9" = "50"
+    Info (12134): Parameter "output_clock_frequency10" = "0 MHz"
+    Info (12134): Parameter "phase_shift10" = "0 ps"
+    Info (12134): Parameter "duty_cycle10" = "50"
+    Info (12134): Parameter "output_clock_frequency11" = "0 MHz"
+    Info (12134): Parameter "phase_shift11" = "0 ps"
+    Info (12134): Parameter "duty_cycle11" = "50"
+    Info (12134): Parameter "output_clock_frequency12" = "0 MHz"
+    Info (12134): Parameter "phase_shift12" = "0 ps"
+    Info (12134): Parameter "duty_cycle12" = "50"
+    Info (12134): Parameter "output_clock_frequency13" = "0 MHz"
+    Info (12134): Parameter "phase_shift13" = "0 ps"
+    Info (12134): Parameter "duty_cycle13" = "50"
+    Info (12134): Parameter "output_clock_frequency14" = "0 MHz"
+    Info (12134): Parameter "phase_shift14" = "0 ps"
+    Info (12134): Parameter "duty_cycle14" = "50"
+    Info (12134): Parameter "output_clock_frequency15" = "0 MHz"
+    Info (12134): Parameter "phase_shift15" = "0 ps"
+    Info (12134): Parameter "duty_cycle15" = "50"
+    Info (12134): Parameter "output_clock_frequency16" = "0 MHz"
+    Info (12134): Parameter "phase_shift16" = "0 ps"
+    Info (12134): Parameter "duty_cycle16" = "50"
+    Info (12134): Parameter "output_clock_frequency17" = "0 MHz"
+    Info (12134): Parameter "phase_shift17" = "0 ps"
+    Info (12134): Parameter "duty_cycle17" = "50"
+    Info (12134): Parameter "pll_type" = "General"
+    Info (12134): Parameter "pll_subtype" = "General"
 Info (12128): Elaborating entity "PMemory" for hierarchy "PMemory:inst2"
 Info (12128): Elaborating entity "altsyncram" for hierarchy "PMemory:inst2|altsyncram:altsyncram_component" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PMemory.vhd Line: 60
 Info (12130): Elaborated megafunction instantiation "PMemory:inst2|altsyncram:altsyncram_component" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PMemory.vhd Line: 60
@@ -1894,6 +2236,24 @@ Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer ID:inst5|Mux9 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
     Warning (19017): Found clock multiplexer ID:inst5|Mux25 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
     Warning (19017): Found clock multiplexer ID:inst5|Mux23 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
+Warning (13034): The following nodes have both tri-state and non-tri-state drivers
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[7]" and its non-tri-state driver.
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[6]" and its non-tri-state driver.
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[5]" and its non-tri-state driver.
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[4]" and its non-tri-state driver.
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[3]" and its non-tri-state driver.
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[2]" and its non-tri-state driver.
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[1]" and its non-tri-state driver.
+    Warning (13035): Inserted always-enabled tri-state buffer between "Data[0]" and its non-tri-state driver.
+Info (13060): One or more bidirectional pins are fed by always enabled tri-state buffers
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[7]" is moved to its source
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[6]" is moved to its source
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[5]" is moved to its source
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[4]" is moved to its source
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[3]" is moved to its source
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[2]" is moved to its source
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[1]" is moved to its source
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[0]" is moved to its source
 Warning (13012): Latch expansionIF:inst8|bufferIn[7] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 52
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_nb24:auto_generated|q_a[13] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_nb24.tdf Line: 32
 Warning (13012): Latch expansionIF:inst8|bufferIn[6] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 52
@@ -1936,18 +2296,31 @@ Warning (13012): Latch ID:inst5|PCOut[10] has unsafe behavior File: C:/Users/luk
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_nb24:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_nb24.tdf Line: 32
 Warning (13012): Latch ID:inst5|PCOut[11] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 302
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_nb24:auto_generated|q_a[12] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_nb24.tdf Line: 32
+Warning (13009): TRI or OPNDRN buffers permanently enabled
+    Warning (13010): Node "Data~synth"
+    Warning (13010): Node "Data~synth"
+    Warning (13010): Node "Data~synth"
+    Warning (13010): Node "Data~synth"
+    Warning (13010): Node "Data~synth"
+    Warning (13010): Node "Data~synth"
+    Warning (13010): Node "Data~synth"
+    Warning (13010): Node "Data~synth"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1421 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 25 input pins
-    Info (21059): Implemented 49 output pins
-    Info (21061): Implemented 1331 logic cells
+    Info (16011): Adding 3 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
+Warning: RST port on the PLL is not properly connected on instance plltoto:inst11|plltoto_0002:plltoto_inst|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altera_pll.v Line: 749
+    Info: Must be connected
+Info (21057): Implemented 1416 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
+    Info (21059): Implemented 41 output pins
+    Info (21060): Implemented 8 bidirectional pins
+    Info (21061): Implemented 1333 logic cells
     Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 82 warnings
-    Info: Peak virtual memory: 817 megabytes
-    Info: Processing ended: Sun Jan 28 21:47:31 2018
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:30
+    Info (21065): Implemented 1 PLLs
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 101 warnings
+    Info: Peak virtual memory: 820 megabytes
+    Info: Processing ended: Mon Jan 29 15:57:04 2018
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:31
 
 
