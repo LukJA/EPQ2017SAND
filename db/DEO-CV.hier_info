@@ -1,14 +1,6 @@
 |SANDBOX
 memclock <= expansionIF:inst8.clkO
 ClockIn => pllciv:inst11.inclk0
-Data[0] <> vector_or:inst15.output[0]
-Data[1] <> vector_or:inst15.output[1]
-Data[2] <> vector_or:inst15.output[2]
-Data[3] <> vector_or:inst15.output[3]
-Data[4] <> vector_or:inst15.output[4]
-Data[5] <> vector_or:inst15.output[5]
-Data[6] <> vector_or:inst15.output[6]
-Data[7] <> vector_or:inst15.output[7]
 PORT1IN[0] => PAL:inst10.strIN1[0]
 PORT1IN[1] => PAL:inst10.strIN1[1]
 PORT1IN[2] => PAL:inst10.strIN1[2]
@@ -49,6 +41,14 @@ ALUO[4] <= ALUV1S1_unsigned:inst1.output[4]
 ALUO[5] <= ALUV1S1_unsigned:inst1.output[5]
 ALUO[6] <= ALUV1S1_unsigned:inst1.output[6]
 ALUO[7] <= ALUV1S1_unsigned:inst1.output[7]
+Data[0] <> vector_or:inst15.output[0]
+Data[1] <> vector_or:inst15.output[1]
+Data[2] <> vector_or:inst15.output[2]
+Data[3] <> vector_or:inst15.output[3]
+Data[4] <> vector_or:inst15.output[4]
+Data[5] <> vector_or:inst15.output[5]
+Data[6] <> vector_or:inst15.output[6]
+Data[7] <> vector_or:inst15.output[7]
 PORT1OUT[0] <= PAL:inst10.strOUT1[0]
 PORT1OUT[1] <= PAL:inst10.strOUT1[1]
 PORT1OUT[2] <= PAL:inst10.strOUT1[2]
@@ -11492,33 +11492,6 @@ concat[12] <= high_word[4].DB_MAX_OUTPUT_PORT_TYPE
 concat[13] <= high_word[5].DB_MAX_OUTPUT_PORT_TYPE
 concat[14] <= high_word[6].DB_MAX_OUTPUT_PORT_TYPE
 concat[15] <= high_word[7].DB_MAX_OUTPUT_PORT_TYPE
-
-
-|SANDBOX|vector_or:inst13
-output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
-output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
-output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
-output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
-output[4] <= output.DB_MAX_OUTPUT_PORT_TYPE
-output[5] <= output.DB_MAX_OUTPUT_PORT_TYPE
-output[6] <= output.DB_MAX_OUTPUT_PORT_TYPE
-output[7] <= output.DB_MAX_OUTPUT_PORT_TYPE
-inOne[0] => output.IN0
-inOne[1] => output.IN0
-inOne[2] => output.IN0
-inOne[3] => output.IN0
-inOne[4] => output.IN0
-inOne[5] => output.IN0
-inOne[6] => output.IN0
-inOne[7] => output.IN0
-inTwo[0] => output.IN1
-inTwo[1] => output.IN1
-inTwo[2] => output.IN1
-inTwo[3] => output.IN1
-inTwo[4] => output.IN1
-inTwo[5] => output.IN1
-inTwo[6] => output.IN1
-inTwo[7] => output.IN1
 
 
 |SANDBOX|PAL:inst10

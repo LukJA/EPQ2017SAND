@@ -1,5 +1,5 @@
 EDA Netlist Writer report for DEO-CV
-Mon Jan 29 16:05:35 2018
+Mon Jan 29 22:35:25 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Jan 29 16:05:35 2018 ;
+; EDA Netlist Writer Status ; Successful - Mon Jan 29 22:35:25 2018 ;
 ; Revision Name             ; DEO-CV                                ;
 ; Top-level Entity Name     ; SANDBOX                               ;
 ; Family                    ; Cyclone IV E                          ;
@@ -89,7 +89,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Jan 29 16:05:32 2018
+    Info: Processing started: Mon Jan 29 22:35:20 2018
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off SANDBOX -c DEO-CV
 Warning (125092): Tcl Script File PLL.qip not found
     Info (125063): set_global_assignment -name QIP_FILE PLL.qip
@@ -104,8 +104,8 @@ Info (204019): Generated file DEO-CV_min_1200mv_0c_vhd_fast.sdo in folder "C:/Us
 Info (204019): Generated file DEO-CV_vhd.sdo in folder "C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 581 megabytes
-    Info: Processing ended: Mon Jan 29 16:05:36 2018
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Processing ended: Mon Jan 29 22:35:25 2018
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 

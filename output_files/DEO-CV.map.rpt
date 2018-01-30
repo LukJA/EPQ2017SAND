@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DEO-CV
-Mon Jan 29 16:04:57 2018
+Mon Jan 29 22:34:45 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -98,37 +98,36 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
  90. Parameter Settings for User Entity Instance: PCV1S1:inst
  91. Parameter Settings for User Entity Instance: PCV1S1:inst|DFFQ:PC_register_R
  92. Parameter Settings for User Entity Instance: vec_concat:inst9
- 93. Parameter Settings for User Entity Instance: vector_or:inst13
- 94. Parameter Settings for User Entity Instance: PAL:inst10|demux:clockmux
- 95. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX
- 96. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX
- 97. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:2:REGX
- 98. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:3:REGX
- 99. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:4:REGX
-100. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:5:REGX
-101. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:6:REGX
-102. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:7:REGX
-103. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:8:REGX
-104. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:9:REGX
-105. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX
-106. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX
-107. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:2:REGX
-108. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:3:REGX
-109. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:4:REGX
-110. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:5:REGX
-111. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:6:REGX
-112. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:7:REGX
-113. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:8:REGX
-114. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:9:REGX
-115. Parameter Settings for User Entity Instance: PAL:inst10|mux:outputmux
-116. Parameter Settings for User Entity Instance: vector_or:inst15
-117. altpll Parameter Settings by Entity Instance
-118. altsyncram Parameter Settings by Entity Instance
-119. Port Connectivity Checks: "PAL:inst10|demux:clockmux"
-120. Port Connectivity Checks: "PCV1S1:inst|DFFQ:PC_register_R"
-121. Post-Synthesis Netlist Statistics for Top Partition
-122. Elapsed Time Per Partition
-123. Analysis & Synthesis Messages
+ 93. Parameter Settings for User Entity Instance: PAL:inst10|demux:clockmux
+ 94. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX
+ 95. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX
+ 96. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:2:REGX
+ 97. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:3:REGX
+ 98. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:4:REGX
+ 99. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:5:REGX
+100. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:6:REGX
+101. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:7:REGX
+102. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:8:REGX
+103. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:9:REGX
+104. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX
+105. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX
+106. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:2:REGX
+107. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:3:REGX
+108. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:4:REGX
+109. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:5:REGX
+110. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:6:REGX
+111. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:7:REGX
+112. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:8:REGX
+113. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:9:REGX
+114. Parameter Settings for User Entity Instance: PAL:inst10|mux:outputmux
+115. Parameter Settings for User Entity Instance: vector_or:inst15
+116. altpll Parameter Settings by Entity Instance
+117. altsyncram Parameter Settings by Entity Instance
+118. Port Connectivity Checks: "PAL:inst10|demux:clockmux"
+119. Port Connectivity Checks: "PCV1S1:inst|DFFQ:PC_register_R"
+120. Post-Synthesis Netlist Statistics for Top Partition
+121. Elapsed Time Per Partition
+122. Analysis & Synthesis Messages
 
 
 
@@ -155,7 +154,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jan 29 16:04:57 2018       ;
+; Analysis & Synthesis Status        ; Successful - Mon Jan 29 22:34:45 2018       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; DEO-CV                                      ;
 ; Top-level Entity Name              ; SANDBOX                                     ;
@@ -328,9 +327,9 @@ agreement for further details.
 ;                                             ;                ;
 ; Total combinational functions               ; 1697           ;
 ; Logic element usage by number of LUT inputs ;                ;
-;     -- 4 input functions                    ; 1425           ;
-;     -- 3 input functions                    ; 191            ;
-;     -- <=2 input functions                  ; 81             ;
+;     -- 4 input functions                    ; 1426           ;
+;     -- 3 input functions                    ; 192            ;
+;     -- <=2 input functions                  ; 79             ;
 ;                                             ;                ;
 ; Logic elements by mode                      ;                ;
 ;     -- normal mode                          ; 1663           ;
@@ -350,7 +349,7 @@ agreement for further details.
 ;                                             ;                ;
 ; Maximum fan-out node                        ; ID:inst5|Mux13 ;
 ; Maximum fan-out                             ; 136            ;
-; Total fan-out                               ; 7992           ;
+; Total fan-out                               ; 7995           ;
 ; Average fan-out                             ; 3.27           ;
 +---------------------------------------------+----------------+
 
@@ -363,25 +362,25 @@ agreement for further details.
 ; |SANDBOX                                  ; 1697 (4)            ; 589 (0)                   ; 65536       ; 0            ; 0       ; 0         ; 66   ; 0            ; |SANDBOX                                                                              ; SANDBOX          ; work         ;
 ;    |ALUV1S1_unsigned:inst1|               ; 74 (74)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|ALUV1S1_unsigned:inst1                                                       ; ALUV1S1_unsigned ; work         ;
 ;    |ID:inst5|                             ; 119 (119)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|ID:inst5                                                                     ; ID               ; work         ;
-;    |PAL:inst10|                           ; 7 (0)               ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10                                                                   ; PAL              ; work         ;
+;    |PAL:inst10|                           ; 5 (0)               ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10                                                                   ; PAL              ; work         ;
 ;       |DFF_Rising:\GEN_REG_sIn:0:REGX|    ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX                                    ; DFF_Rising       ; work         ;
 ;       |DFF_Rising:\GEN_REG_sIn:1:REGX|    ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX                                    ; DFF_Rising       ; work         ;
 ;       |DFF_Rising:\GEN_REG_sOut:0:REGX|   ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX                                   ; DFF_Rising       ; work         ;
 ;       |DFF_Rising:\GEN_REG_sOut:1:REGX|   ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX                                   ; DFF_Rising       ; work         ;
-;       |mux:outputmux|                     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|mux:outputmux                                                     ; mux              ; work         ;
+;       |mux:outputmux|                     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|mux:outputmux                                                     ; mux              ; work         ;
 ;    |PCV1S1:inst|                          ; 12 (0)              ; 12 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PCV1S1:inst                                                                  ; PCV1S1           ; work         ;
 ;       |DFFQ:PC_register_R|                ; 12 (12)             ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PCV1S1:inst|DFFQ:PC_register_R                                               ; DFFQ             ; work         ;
 ;    |PMemory:inst2|                        ; 0 (0)               ; 0 (0)                     ; 65536       ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PMemory:inst2                                                                ; PMemory          ; work         ;
 ;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 65536       ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PMemory:inst2|altsyncram:altsyncram_component                                ; altsyncram       ; work         ;
 ;          |altsyncram_75s3:auto_generated| ; 0 (0)               ; 0 (0)                     ; 65536       ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PMemory:inst2|altsyncram:altsyncram_component|altsyncram_75s3:auto_generated ; altsyncram_75s3  ; work         ;
-;    |expansionIF:inst8|                    ; 52 (52)             ; 33 (17)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|expansionIF:inst8                                                            ; expansionIF      ; work         ;
+;    |expansionIF:inst8|                    ; 55 (55)             ; 33 (17)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|expansionIF:inst8                                                            ; expansionIF      ; work         ;
 ;       |DFF_Rising:addressStorage|         ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|expansionIF:inst8|DFF_Rising:addressStorage                                  ; DFF_Rising       ; work         ;
 ;    |pllciv:inst11|                        ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|pllciv:inst11                                                                ; pllciv           ; work         ;
 ;       |altpll:altpll_component|           ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|pllciv:inst11|altpll:altpll_component                                        ; altpll           ; work         ;
 ;          |pllciv_altpll:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|pllciv:inst11|altpll:altpll_component|pllciv_altpll:auto_generated           ; pllciv_altpll    ; work         ;
-;    |r_block:inst4|                        ; 1429 (0)            ; 512 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4                                                                ; r_block          ; work         ;
+;    |r_block:inst4|                        ; 1428 (0)            ; 512 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4                                                                ; r_block          ; work         ;
 ;       |R_P_control:inst1|                 ; 84 (84)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|R_P_control:inst1                                              ; R_P_control      ; work         ;
-;       |array_or:inst6|                    ; 513 (513)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|array_or:inst6                                                 ; array_or         ; work         ;
+;       |array_or:inst6|                    ; 512 (512)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|array_or:inst6                                                 ; array_or         ; work         ;
 ;       |demux:inst2|                       ; 64 (64)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|demux:inst2                                                    ; demux            ; work         ;
 ;       |mux:inst4|                         ; 352 (352)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|mux:inst4                                                      ; mux              ; work         ;
 ;       |mux:inst5|                         ; 416 (416)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|mux:inst5                                                      ; mux              ; work         ;
@@ -536,19 +535,19 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; No         ; |SANDBOX|ID:inst5|Mux38                      ;
-; 9:1                ; 8 bits    ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Mux1         ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Add1         ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Add1         ;
-; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst4|outputs[4]  ;
-; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst5|outputs[2]  ;
-; 11:1               ; 8 bits    ; 56 LEs        ; 16 LEs               ; 40 LEs                 ; No         ; |SANDBOX|PAL:inst10|mux:outputmux|outputs[7] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; No         ; |SANDBOX|ID:inst5|Mux30                     ;
+; 9:1                ; 8 bits    ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Mux4        ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Add1        ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |SANDBOX|ALUV1S1_unsigned:inst1|Add1        ;
+; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst4|outputs[6] ;
+; 64:1               ; 8 bits    ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |SANDBOX|r_block:inst4|mux:inst5|outputs[3] ;
+; 12:1               ; 8 bits    ; 64 LEs        ; 24 LEs               ; 40 LEs                 ; No         ; |SANDBOX|expansionIF:inst8|dataOut[5]       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -1770,16 +1769,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: vector_or:inst13 ;
-+----------------+-------+--------------------------------------+
-; Parameter Name ; Value ; Type                                 ;
-+----------------+-------+--------------------------------------+
-; n              ; 8     ; Signed Integer                       ;
-+----------------+-------+--------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: PAL:inst10|demux:clockmux ;
 +----------------+-------+-----------------------------------------------+
@@ -2085,14 +2074,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;         3 data inputs ; 7                           ;
 ;     normal            ; 1663                        ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 52                          ;
-;         3 data inputs ; 184                         ;
-;         4 data inputs ; 1425                        ;
+;         2 data inputs ; 50                          ;
+;         3 data inputs ; 185                         ;
+;         4 data inputs ; 1426                        ;
 ; cycloneiii_pll        ; 1                           ;
 ; cycloneiii_ram_block  ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 16.00                       ;
-; Average LUT depth     ; 12.22                       ;
+; Average LUT depth     ; 12.21                       ;
 +-----------------------+-----------------------------+
 
 
@@ -2111,7 +2100,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Jan 29 16:04:41 2018
+    Info: Processing started: Mon Jan 29 22:34:18 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SANDBOX -c DEO-CV
 Warning (125092): Tcl Script File PLL.qip not found
     Info (125063): set_global_assignment -name QIP_FILE PLL.qip
@@ -2190,7 +2179,6 @@ Warning (275080): Converted elements in bus name "OUT" using legacy naming rules
     Warning (275081): Converted element name(s) from "OUT[7..0]" to "OUT7..0"
 Warning (275080): Converted elements in bus name "OUT2" using legacy naming rules. Make any assignments on the new names, not on the original names.
     Warning (275081): Converted element name(s) from "OUT2[7..0]" to "OUT27..0"
-Warning (275011): Block or symbol "expansionIF" of instance "inst8" overlaps another block or symbol
 Warning (275002): No superset bus at connection
 Warning (275002): No superset bus at connection
 Info (12128): Elaborating entity "expansionIF" for hierarchy "expansionIF:inst8"
@@ -2362,10 +2350,10 @@ Info (12128): Elaborating entity "altsyncram_75s3" for hierarchy "PMemory:inst2|
 Info (12128): Elaborating entity "PCV1S1" for hierarchy "PCV1S1:inst"
 Info (12128): Elaborating entity "DFFQ" for hierarchy "PCV1S1:inst|DFFQ:PC_register_R" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PCV1S1.vhd Line: 32
 Info (12128): Elaborating entity "vec_concat" for hierarchy "vec_concat:inst9"
-Info (12128): Elaborating entity "vector_or" for hierarchy "vector_or:inst13"
 Info (12128): Elaborating entity "PAL" for hierarchy "PAL:inst10"
 Info (12128): Elaborating entity "demux" for hierarchy "PAL:inst10|demux:clockmux" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 36
 Info (12128): Elaborating entity "mux" for hierarchy "PAL:inst10|mux:outputmux" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 70
+Info (12128): Elaborating entity "vector_or" for hierarchy "vector_or:inst15"
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer ID:inst5|Mux22 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
     Warning (19017): Found clock multiplexer ID:inst5|Mux21 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
@@ -2392,15 +2380,6 @@ Warning (13034): The following nodes have both tri-state and non-tri-state drive
     Warning (13035): Inserted always-enabled tri-state buffer between "Data[2]" and its non-tri-state driver.
     Warning (13035): Inserted always-enabled tri-state buffer between "Data[1]" and its non-tri-state driver.
     Warning (13035): Inserted always-enabled tri-state buffer between "Data[0]" and its non-tri-state driver.
-Info (13060): One or more bidirectional pins are fed by always enabled tri-state buffers
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[7]" is moved to its source
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[6]" is moved to its source
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[5]" is moved to its source
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[4]" is moved to its source
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[3]" is moved to its source
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[2]" is moved to its source
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[1]" is moved to its source
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "Data[0]" is moved to its source
 Warning (13012): Latch expansionIF:inst8|bufferIn[7] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 52
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_75s3:auto_generated|q_a[13] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_75s3.tdf Line: 32
 Warning (13012): Latch expansionIF:inst8|bufferIn[6] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 52
@@ -2443,10 +2422,10 @@ Info (21057): Implemented 1828 device resources after synthesis - the final reso
     Info (21061): Implemented 1745 logic cells
     Info (21064): Implemented 16 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 84 warnings
-    Info: Peak virtual memory: 741 megabytes
-    Info: Processing ended: Mon Jan 29 16:04:57 2018
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:28
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 83 warnings
+    Info: Peak virtual memory: 743 megabytes
+    Info: Processing ended: Mon Jan 29 22:34:45 2018
+    Info: Elapsed time: 00:00:27
+    Info: Total CPU time (on all processors): 00:00:30
 
 

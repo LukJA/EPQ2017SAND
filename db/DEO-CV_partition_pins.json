@@ -208,11 +208,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "PORT1IN[6]",
+					"name" : "PORT1IN[14]",
 					"strict" : false
 				},
 				{
-					"name" : "PORT1IN[14]",
+					"name" : "PORT1IN[6]",
 					"strict" : false
 				},
 				{
@@ -240,19 +240,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "PORT1IN[10]",
-					"strict" : false
-				},
-				{
 					"name" : "PORT1IN[2]",
 					"strict" : false
 				},
 				{
-					"name" : "PORT1IN[9]",
+					"name" : "PORT1IN[10]",
 					"strict" : false
 				},
 				{
 					"name" : "PORT1IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PORT1IN[9]",
 					"strict" : false
 				},
 				{
