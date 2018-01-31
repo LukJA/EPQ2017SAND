@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DEO-CV
-Mon Jan 29 22:34:45 2018
+Wed Jan 31 22:23:25 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -98,36 +98,33 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
  90. Parameter Settings for User Entity Instance: PCV1S1:inst
  91. Parameter Settings for User Entity Instance: PCV1S1:inst|DFFQ:PC_register_R
  92. Parameter Settings for User Entity Instance: vec_concat:inst9
- 93. Parameter Settings for User Entity Instance: PAL:inst10|demux:clockmux
- 94. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX
- 95. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX
- 96. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:2:REGX
- 97. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:3:REGX
- 98. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:4:REGX
- 99. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:5:REGX
-100. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:6:REGX
-101. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:7:REGX
-102. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:8:REGX
-103. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:9:REGX
-104. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX
-105. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX
-106. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:2:REGX
-107. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:3:REGX
-108. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:4:REGX
-109. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:5:REGX
-110. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:6:REGX
-111. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:7:REGX
-112. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:8:REGX
-113. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:9:REGX
-114. Parameter Settings for User Entity Instance: PAL:inst10|mux:outputmux
-115. Parameter Settings for User Entity Instance: vector_or:inst15
-116. altpll Parameter Settings by Entity Instance
-117. altsyncram Parameter Settings by Entity Instance
-118. Port Connectivity Checks: "PAL:inst10|demux:clockmux"
-119. Port Connectivity Checks: "PCV1S1:inst|DFFQ:PC_register_R"
-120. Post-Synthesis Netlist Statistics for Top Partition
-121. Elapsed Time Per Partition
-122. Analysis & Synthesis Messages
+ 93. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX
+ 94. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX
+ 95. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:2:REGX
+ 96. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:3:REGX
+ 97. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:4:REGX
+ 98. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:5:REGX
+ 99. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:6:REGX
+100. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:7:REGX
+101. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:8:REGX
+102. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:9:REGX
+103. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX
+104. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX
+105. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:2:REGX
+106. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:3:REGX
+107. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:4:REGX
+108. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:5:REGX
+109. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:6:REGX
+110. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:7:REGX
+111. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:8:REGX
+112. Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sIn:9:REGX
+113. Parameter Settings for User Entity Instance: PAL:inst10|mux:outputmux
+114. altpll Parameter Settings by Entity Instance
+115. altsyncram Parameter Settings by Entity Instance
+116. Port Connectivity Checks: "PCV1S1:inst|DFFQ:PC_register_R"
+117. Post-Synthesis Netlist Statistics for Top Partition
+118. Elapsed Time Per Partition
+119. Analysis & Synthesis Messages
 
 
 
@@ -154,13 +151,13 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jan 29 22:34:45 2018       ;
+; Analysis & Synthesis Status        ; Successful - Wed Jan 31 22:23:25 2018       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; DEO-CV                                      ;
 ; Top-level Entity Name              ; SANDBOX                                     ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1,737                                       ;
-;     Total combinational functions  ; 1,697                                       ;
+; Total logic elements               ; 1,745                                       ;
+;     Total combinational functions  ; 1,705                                       ;
 ;     Dedicated logic registers      ; 589                                         ;
 ; Total registers                    ; 589                                         ;
 ; Total pins                         ; 66                                          ;
@@ -323,16 +320,16 @@ agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimated Total logic elements              ; 1,737          ;
+; Estimated Total logic elements              ; 1,745          ;
 ;                                             ;                ;
-; Total combinational functions               ; 1697           ;
+; Total combinational functions               ; 1705           ;
 ; Logic element usage by number of LUT inputs ;                ;
-;     -- 4 input functions                    ; 1426           ;
-;     -- 3 input functions                    ; 192            ;
-;     -- <=2 input functions                  ; 79             ;
+;     -- 4 input functions                    ; 1430           ;
+;     -- 3 input functions                    ; 186            ;
+;     -- <=2 input functions                  ; 89             ;
 ;                                             ;                ;
 ; Logic elements by mode                      ;                ;
-;     -- normal mode                          ; 1663           ;
+;     -- normal mode                          ; 1671           ;
 ;     -- arithmetic mode                      ; 34             ;
 ;                                             ;                ;
 ; Total registers                             ; 589            ;
@@ -349,7 +346,7 @@ agreement for further details.
 ;                                             ;                ;
 ; Maximum fan-out node                        ; ID:inst5|Mux13 ;
 ; Maximum fan-out                             ; 136            ;
-; Total fan-out                               ; 7995           ;
+; Total fan-out                               ; 8005           ;
 ; Average fan-out                             ; 3.27           ;
 +---------------------------------------------+----------------+
 
@@ -359,15 +356,15 @@ agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                   ; Entity Name      ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------+------------------+--------------+
-; |SANDBOX                                  ; 1697 (4)            ; 589 (0)                   ; 65536       ; 0            ; 0       ; 0         ; 66   ; 0            ; |SANDBOX                                                                              ; SANDBOX          ; work         ;
+; |SANDBOX                                  ; 1705 (2)            ; 589 (0)                   ; 65536       ; 0            ; 0       ; 0         ; 66   ; 0            ; |SANDBOX                                                                              ; SANDBOX          ; work         ;
 ;    |ALUV1S1_unsigned:inst1|               ; 74 (74)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|ALUV1S1_unsigned:inst1                                                       ; ALUV1S1_unsigned ; work         ;
 ;    |ID:inst5|                             ; 119 (119)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|ID:inst5                                                                     ; ID               ; work         ;
-;    |PAL:inst10|                           ; 5 (0)               ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10                                                                   ; PAL              ; work         ;
+;    |PAL:inst10|                           ; 8 (2)               ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10                                                                   ; PAL              ; work         ;
 ;       |DFF_Rising:\GEN_REG_sIn:0:REGX|    ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sIn:0:REGX                                    ; DFF_Rising       ; work         ;
 ;       |DFF_Rising:\GEN_REG_sIn:1:REGX|    ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sIn:1:REGX                                    ; DFF_Rising       ; work         ;
 ;       |DFF_Rising:\GEN_REG_sOut:0:REGX|   ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX                                   ; DFF_Rising       ; work         ;
 ;       |DFF_Rising:\GEN_REG_sOut:1:REGX|   ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|DFF_Rising:\GEN_REG_sOut:1:REGX                                   ; DFF_Rising       ; work         ;
-;       |mux:outputmux|                     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|mux:outputmux                                                     ; mux              ; work         ;
+;       |mux:outputmux|                     ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PAL:inst10|mux:outputmux                                                     ; mux              ; work         ;
 ;    |PCV1S1:inst|                          ; 12 (0)              ; 12 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PCV1S1:inst                                                                  ; PCV1S1           ; work         ;
 ;       |DFFQ:PC_register_R|                ; 12 (12)             ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PCV1S1:inst|DFFQ:PC_register_R                                               ; DFFQ             ; work         ;
 ;    |PMemory:inst2|                        ; 0 (0)               ; 0 (0)                     ; 65536       ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|PMemory:inst2                                                                ; PMemory          ; work         ;
@@ -378,9 +375,9 @@ agreement for further details.
 ;    |pllciv:inst11|                        ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|pllciv:inst11                                                                ; pllciv           ; work         ;
 ;       |altpll:altpll_component|           ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|pllciv:inst11|altpll:altpll_component                                        ; altpll           ; work         ;
 ;          |pllciv_altpll:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|pllciv:inst11|altpll:altpll_component|pllciv_altpll:auto_generated           ; pllciv_altpll    ; work         ;
-;    |r_block:inst4|                        ; 1428 (0)            ; 512 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4                                                                ; r_block          ; work         ;
+;    |r_block:inst4|                        ; 1435 (0)            ; 512 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4                                                                ; r_block          ; work         ;
 ;       |R_P_control:inst1|                 ; 84 (84)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|R_P_control:inst1                                              ; R_P_control      ; work         ;
-;       |array_or:inst6|                    ; 512 (512)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|array_or:inst6                                                 ; array_or         ; work         ;
+;       |array_or:inst6|                    ; 519 (519)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|array_or:inst6                                                 ; array_or         ; work         ;
 ;       |demux:inst2|                       ; 64 (64)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|demux:inst2                                                    ; demux            ; work         ;
 ;       |mux:inst4|                         ; 352 (352)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|mux:inst4                                                      ; mux              ; work         ;
 ;       |mux:inst5|                         ; 416 (416)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SANDBOX|r_block:inst4|mux:inst5                                                      ; mux              ; work         ;
@@ -1354,7 +1351,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CLK3_DIVIDE_BY                ; 1                        ; Untyped                 ;
 ; CLK2_DIVIDE_BY                ; 1                        ; Untyped                 ;
 ; CLK1_DIVIDE_BY                ; 1                        ; Untyped                 ;
-; CLK0_DIVIDE_BY                ; 5                        ; Signed Integer          ;
+; CLK0_DIVIDE_BY                ; 50                       ; Signed Integer          ;
 ; CLK9_PHASE_SHIFT              ; 0                        ; Untyped                 ;
 ; CLK8_PHASE_SHIFT              ; 0                        ; Untyped                 ;
 ; CLK7_PHASE_SHIFT              ; 0                        ; Untyped                 ;
@@ -1769,18 +1766,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: PAL:inst10|demux:clockmux ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; size           ; 10    ; Signed Integer                                ;
-; wide           ; 1     ; Signed Integer                                ;
-; adr_wide       ; 16    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-----------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: PAL:inst10|DFF_Rising:\GEN_REG_sOut:0:REGX ;
 +----------------+-------+----------------------------------------------------------------+
@@ -1993,16 +1978,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: vector_or:inst15 ;
-+----------------+-------+--------------------------------------+
-; Parameter Name ; Value ; Type                                 ;
-+----------------+-------+--------------------------------------+
-; n              ; 8     ; Signed Integer                       ;
-+----------------+-------+--------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-----------------------------------------------------------------------+
 ; altpll Parameter Settings by Entity Instance                          ;
 +-------------------------------+---------------------------------------+
@@ -2040,15 +2015,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+-----------------------------------------------+
 
 
-+-------------------------------------------------------+
-; Port Connectivity Checks: "PAL:inst10|demux:clockmux" ;
-+-------+-------+----------+----------------------------+
-; Port  ; Type  ; Severity ; Details                    ;
-+-------+-------+----------+----------------------------+
-; input ; Input ; Info     ; Stuck at VCC               ;
-+-------+-------+----------+----------------------------+
-
-
 +------------------------------------------------------------+
 ; Port Connectivity Checks: "PCV1S1:inst|DFFQ:PC_register_R" ;
 +------+-------+----------+----------------------------------+
@@ -2068,20 +2034,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SLD               ; 28                          ;
 ;     plain             ; 561                         ;
 ; cycloneiii_io_obuf    ; 8                           ;
-; cycloneiii_lcell_comb ; 1697                        ;
+; cycloneiii_lcell_comb ; 1705                        ;
 ;     arith             ; 34                          ;
 ;         2 data inputs ; 27                          ;
 ;         3 data inputs ; 7                           ;
-;     normal            ; 1663                        ;
+;     normal            ; 1671                        ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 50                          ;
-;         3 data inputs ; 185                         ;
-;         4 data inputs ; 1426                        ;
+;         2 data inputs ; 60                          ;
+;         3 data inputs ; 179                         ;
+;         4 data inputs ; 1430                        ;
 ; cycloneiii_pll        ; 1                           ;
 ; cycloneiii_ram_block  ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 16.00                       ;
-; Average LUT depth     ; 12.21                       ;
+; Average LUT depth     ; 12.22                       ;
 +-----------------------+-----------------------------+
 
 
@@ -2090,7 +2056,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -2100,7 +2066,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Jan 29 22:34:18 2018
+    Info: Processing started: Wed Jan 31 22:23:12 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SANDBOX -c DEO-CV
 Warning (125092): Tcl Script File PLL.qip not found
     Info (125063): set_global_assignment -name QIP_FILE PLL.qip
@@ -2117,9 +2083,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file concept
 Info (12021): Found 2 design units, including 1 entities, in source file vector_concats.vhd
     Info (12022): Found design unit 1: vec_concat-impl File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/vector_concats.vhd Line: 24
     Info (12023): Found entity 1: vec_concat File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/vector_concats.vhd Line: 9
-Info (12021): Found 2 design units, including 1 entities, in source file pal.vhd
-    Info (12022): Found design unit 1: PAL-versionone File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 22
+Info (12021): Found 4 design units, including 2 entities, in source file pal.vhd
+    Info (12022): Found design unit 1: PAL-versionone File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 24
+    Info (12022): Found design unit 2: onehotmux-impl File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 92
     Info (12023): Found entity 1: PAL File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 10
+    Info (12023): Found entity 2: onehotmux File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 85
 Info (12021): Found 2 design units, including 1 entities, in source file expansionif.vhd
     Info (12022): Found design unit 1: expansionIF-func File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 32
     Info (12023): Found entity 1: expansionIF File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 12
@@ -2233,7 +2201,7 @@ Info (12128): Elaborating entity "altpll" for hierarchy "pllciv:inst11|altpll:al
 Info (12130): Elaborated megafunction instantiation "pllciv:inst11|altpll:altpll_component" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/pllciv.vhd Line: 139
 Info (12133): Instantiated megafunction "pllciv:inst11|altpll:altpll_component" with the following parameter: File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/pllciv.vhd Line: 139
     Info (12134): Parameter "bandwidth_type" = "AUTO"
-    Info (12134): Parameter "clk0_divide_by" = "5"
+    Info (12134): Parameter "clk0_divide_by" = "50"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
     Info (12134): Parameter "clk0_multiply_by" = "1"
     Info (12134): Parameter "clk0_phase_shift" = "0"
@@ -2351,9 +2319,8 @@ Info (12128): Elaborating entity "PCV1S1" for hierarchy "PCV1S1:inst"
 Info (12128): Elaborating entity "DFFQ" for hierarchy "PCV1S1:inst|DFFQ:PC_register_R" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PCV1S1.vhd Line: 32
 Info (12128): Elaborating entity "vec_concat" for hierarchy "vec_concat:inst9"
 Info (12128): Elaborating entity "PAL" for hierarchy "PAL:inst10"
-Info (12128): Elaborating entity "demux" for hierarchy "PAL:inst10|demux:clockmux" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 36
-Info (12128): Elaborating entity "mux" for hierarchy "PAL:inst10|mux:outputmux" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 70
-Info (12128): Elaborating entity "vector_or" for hierarchy "vector_or:inst15"
+Info (12128): Elaborating entity "onehotmux" for hierarchy "PAL:inst10|onehotmux:clockmux" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 39
+Info (12128): Elaborating entity "mux" for hierarchy "PAL:inst10|mux:outputmux" File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/PAL.vhd Line: 73
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer ID:inst5|Mux22 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
     Warning (19017): Found clock multiplexer ID:inst5|Mux21 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
@@ -2371,15 +2338,15 @@ Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer ID:inst5|Mux9 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
     Warning (19017): Found clock multiplexer ID:inst5|Mux25 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
     Warning (19017): Found clock multiplexer ID:inst5|Mux23 File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 55
-Warning (13034): The following nodes have both tri-state and non-tri-state drivers
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[7]" and its non-tri-state driver.
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[6]" and its non-tri-state driver.
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[5]" and its non-tri-state driver.
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[4]" and its non-tri-state driver.
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[3]" and its non-tri-state driver.
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[2]" and its non-tri-state driver.
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[1]" and its non-tri-state driver.
-    Warning (13035): Inserted always-enabled tri-state buffer between "Data[0]" and its non-tri-state driver.
+Warning (13039): The following bidirectional pins have no drivers
+    Warning (13040): bidirectional pin "Data" has no driver
+    Warning (13040): bidirectional pin "Data" has no driver
+    Warning (13040): bidirectional pin "Data" has no driver
+    Warning (13040): bidirectional pin "Data" has no driver
+    Warning (13040): bidirectional pin "Data" has no driver
+    Warning (13040): bidirectional pin "Data" has no driver
+    Warning (13040): bidirectional pin "Data" has no driver
+    Warning (13040): bidirectional pin "Data" has no driver
 Warning (13012): Latch expansionIF:inst8|bufferIn[7] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 52
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_75s3:auto_generated|q_a[13] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_75s3.tdf Line: 32
 Warning (13012): Latch expansionIF:inst8|bufferIn[6] has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/expansionIF.vhd Line: 52
@@ -2398,15 +2365,6 @@ Warning (13012): Latch expansionIF:inst8|bufferIn[0] has unsafe behavior File: C
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_75s3:auto_generated|q_a[13] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_75s3.tdf Line: 32
 Warning (13012): Latch ID:inst5|EQ_LAT has unsafe behavior File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/InstructionDecoder.vhd Line: 30
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PMemory:inst2|altsyncram:altsyncram_component|altsyncram_75s3:auto_generated|q_a[15] File: C:/Users/lukej/Desktop/EPQ2017tests/EPQ2017SAND/db/altsyncram_75s3.tdf Line: 32
-Warning (13009): TRI or OPNDRN buffers permanently enabled
-    Warning (13010): Node "Data~synth"
-    Warning (13010): Node "Data~synth"
-    Warning (13010): Node "Data~synth"
-    Warning (13010): Node "Data~synth"
-    Warning (13010): Node "Data~synth"
-    Warning (13010): Node "Data~synth"
-    Warning (13010): Node "Data~synth"
-    Warning (13010): Node "Data~synth"
 Info (286030): Timing-Driven Synthesis is running
 Warning (20013): Ignored 16 assignments for entity "plltoto" -- entity does not exist in design
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity plltoto -sip plltoto.sip -library lib_plltoto was ignored
@@ -2415,17 +2373,17 @@ Warning (20013): Ignored 16 assignments for entity "plltoto" -- entity does not 
 Warning (20013): Ignored 317 assignments for entity "plltoto_0002" -- entity does not exist in design
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1828 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1836 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 41 output pins
     Info (21060): Implemented 8 bidirectional pins
-    Info (21061): Implemented 1745 logic cells
+    Info (21061): Implemented 1753 logic cells
     Info (21064): Implemented 16 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 83 warnings
-    Info: Peak virtual memory: 743 megabytes
-    Info: Processing ended: Mon Jan 29 22:34:45 2018
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:30
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 74 warnings
+    Info: Peak virtual memory: 746 megabytes
+    Info: Processing ended: Wed Jan 31 22:23:25 2018
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:25
 
 

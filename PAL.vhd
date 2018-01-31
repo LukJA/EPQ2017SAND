@@ -14,14 +14,16 @@ entity PAL is
 			DataOut: out std_logic_vector(7 downto 0) := (others => '0');
 			
 			strIN1, strIN2, strIN3, strIN4, strIN5 : in std_logic_vector(15 downto 0);
-			strOUT1, strOUT2, strOUT3, strOUT4, strOUT5 : out std_logic_vector(15 downto 0)
+			strOUT1, strOUT2, strOUT3, strOUT4, strOUT5 : out std_logic_vector(15 downto 0);
+			
+			hi : in std_logic_vector(0 downto 0) := "1"
 			);
 		
 end PAL;
 
 architecture versionone of PAL is 
 
-	signal reg_clocks : array_p(9 downto 0)(0 downto 0);
+	signal reg_clocks : std_logic_vector(9 downto 0);
 
 	signal out_stream_raw : array_p(9 downto 0)(7 downto 0);
 	signal in_stream_raw : array_p(9 downto 0)(7 downto 0);
@@ -33,12 +35,13 @@ begin
 	/* this version uses 10 addresses */
 	
 	/* create the onehot register mux */ 
-	clockmux: entity work.demux generic map (10,1,16) port map ("1", Address, reg_clocks);
+	--clockmux: entity work.demux generic map (10,1,16) port map (hi, Address, reg_clocks);
+	clockmux: entity work.onehotmux port map(Address(3 downto 0), reg_clocks);
 	
 	/* outputting registers */
 	GEN_REG_sOut: 
    for k in 0 to 9 generate
-      REGX : work.DFF_Rising generic map (8) port map (reg_clocks(k)(0), DataIn, out_stream_raw(k));
+      REGX : work.DFF_Rising generic map (8) port map ((reg_clocks(k) and clk), DataIn, out_stream_raw(k));
    end generate GEN_REG_sOut;
 	/* wire up the double width outputs */
 	strOUT1 <= out_stream_raw(1) & out_stream_raw(0);
@@ -68,5 +71,34 @@ begin
 	/* setup the selection mux for ths data */
 	
 	outputmux: entity work.mux generic map (10,8,16) port map (in_stream_reg, Address, DataOut);
+	
 
 end versionone;
+
+
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.global.all;
+
+entity onehotmux is 
+	port(
+		address : in std_logic_vector(3 downto 0);
+		data	  : out std_logic_vector(9 downto 0)
+		);
+end onehotmux;
+
+architecture impl of onehotmux is
+	signal s_reg : std_logic_vector(9 downto 0);
+begin
+	data <=  s_reg;
+	process(all)
+	  variable jee : integer; 
+	  begin 
+				 s_reg    <= (others => '0'); 
+				 jee := TO_INTEGER (UNSIGNED (address)); 
+				 s_reg (jee)       <= '1'; 
+	end process; 
+	
+end impl;
