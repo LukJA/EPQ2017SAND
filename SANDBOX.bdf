@@ -20,6 +20,9 @@ authorized distributors.  Please refer to the applicable
 agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(properties
+	(page_setup "orientation\n1\npaper_size\n2\npaper_source\n12\nmargin\n1.000:1.000:1.000:1.000\n")
+)
 (pin
 	(input)
 	(rect -384 504 -208 520)
@@ -71,40 +74,6 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 1128 744 1304 760)
-	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "Address[15..0]" (rect 5 0 72 17)(font "Intel Clear" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 176 8)(pt 124 8))
-		(line (pt 124 4)(pt 98 4))
-		(line (pt 124 12)(pt 98 12))
-		(line (pt 124 12)(pt 124 4))
-		(line (pt 98 4)(pt 94 8))
-		(line (pt 94 8)(pt 98 12))
-		(line (pt 98 12)(pt 94 8))
-	)
-	(flipy)
-)
-(pin
-	(output)
-	(rect 1128 776 1304 792)
-	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "memclock" (rect 36 0 86 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 176 8)(pt 124 8))
-		(line (pt 124 4)(pt 98 4))
-		(line (pt 124 12)(pt 98 12))
-		(line (pt 124 12)(pt 124 4))
-		(line (pt 98 4)(pt 94 8))
-		(line (pt 94 8)(pt 98 12))
-		(line (pt 98 12)(pt 94 8))
-	)
-	(flipy)
-)
-(pin
-	(output)
 	(rect 1680 608 1865 624)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "PORT1OUT[15..0]" (rect 90 0 179 12)(font "Arial" ))
@@ -118,24 +87,6 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-)
-(pin
-	(bidir)
-	(rect 888 760 1064 776)
-	(text "BIDIR" (rect 151 0 175 10)(font "Arial" (font_size 6)))
-	(text "Data[7..0]" (rect 5 0 54 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 120 4)(pt 98 4))
-		(line (pt 176 8)(pt 124 8))
-		(line (pt 120 12)(pt 98 12))
-		(line (pt 98 4)(pt 94 8))
-		(line (pt 98 12)(pt 94 8))
-		(line (pt 120 4)(pt 124 8))
-		(line (pt 124 8)(pt 120 12))
-	)
-	(flipy)
-	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
 )
 (symbol
 	(rect 1184 184 1448 328)
@@ -1396,36 +1347,13 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1384 648)
-	(pt 1384 720)
-	(bus)
-)
-(connector
 	(pt 1400 480)
 	(pt 1400 632)
 	(bus)
 )
 (connector
-	(pt 1400 632)
-	(pt 1400 752)
-	(bus)
-)
-(connector
 	(pt 1416 464)
 	(pt 1416 616)
-)
-(connector
-	(pt 1416 616)
-	(pt 1416 784)
-)
-(connector
-	(pt 1304 752)
-	(pt 1400 752)
-	(bus)
-)
-(connector
-	(pt 1304 784)
-	(pt 1416 784)
 )
 (connector
 	(pt 1656 616)
@@ -1494,11 +1422,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1064 768)
-	(pt 1072 768)
-	(bus)
-)
-(connector
 	(pt 832 360)
 	(pt 1136 360)
 	(bus)
@@ -1547,9 +1470,6 @@ agreement for further details.
 (junction (pt 1176 224))
 (junction (pt 968 464))
 (junction (pt 968 480))
-(junction (pt 1384 648))
-(junction (pt 1400 632))
-(junction (pt 1416 616))
 (junction (pt 352 336))
 (junction (pt -208 512))
 (junction (pt 1160 240))
